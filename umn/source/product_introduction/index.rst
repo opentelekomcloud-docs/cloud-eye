@@ -10,7 +10,7 @@ Product Introduction
 -  :ref:`Application Scenarios <ces_07_0003>`
 -  :ref:`Basic Concepts <ces_07_0006>`
 -  :ref:`Constraints <ces_07_0007>`
--  :ref:`Region and AZ <ces_07_0008>`
+-  :ref:`Region and AZ <en-us_topic_0000001360217524>`
 
 .. toctree::
    :maxdepth: 1
