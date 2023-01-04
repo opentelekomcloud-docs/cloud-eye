@@ -29,9 +29,9 @@ Adding Subscriptions
 
 
    .. figure:: /_static/images/en-us_image_0129738465.png
-      :alt: **Figure 1** Adding Subscriptions
+      :alt: **Figure 1** Adding a subscription
 
-      **Figure 1** Adding Subscriptions
+      **Figure 1** Adding a subscription
 
 #. Specify the subscription protocol and endpoints.
 

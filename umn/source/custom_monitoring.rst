@@ -25,7 +25,7 @@ Viewing Custom Monitoring
 
 #. Locate the row that contains the cloud service resource to be viewed, and click **View Metric**.
 
-   On the page displayed, you can view graphs based on raw data collected in **1h**, **3h**, **12h**, **1d**, and **7d**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
+   On the page displayed, you can view graphs based on raw data collected in **1h**, **3h**, **12h**, **24h**, and **7d**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
 
 Creating an Alarm Rule
 ----------------------

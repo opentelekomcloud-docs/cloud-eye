@@ -33,35 +33,36 @@ Creating a Topic
    The **Create Topic** dialog box is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0129759242.png
-      :alt: **Figure 1** Create Topic
+   .. figure:: /_static/images/en-us_image_0000001379012402.png
+      :alt: **Figure 1** Creating a topic
 
-      **Figure 1** Create Topic
+      **Figure 1** Creating a topic
 
 #. Enter a topic name and display name (topic description).
 
    .. table:: **Table 1** Parameters required for creating a topic
 
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                                                                                                                                                  |
-      +===================================+==============================================================================================================================================================================================================================================+
-      | Topic Name                        | Specifies the topic name, which                                                                                                                                                                                                              |
-      |                                   |                                                                                                                                                                                                                                              |
-      |                                   | -  Contains only letters, digits, hyphens (-), and underscores (_) and must start with a letter or a digit.                                                                                                                                  |
-      |                                   | -  Must contain 1 to 255 characters.                                                                                                                                                                                                         |
-      |                                   | -  Must be unique and cannot be modified after the topic is created.                                                                                                                                                                         |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Display Name                      | Specifies the message sender name, which must be less than 192 characters.                                                                                                                                                                   |
-      |                                   |                                                                                                                                                                                                                                              |
-      |                                   | .. note::                                                                                                                                                                                                                                    |
-      |                                   |                                                                                                                                                                                                                                              |
-      |                                   |    After you specify a display name in *Display name*\ **<username@example.com>** format, the name you specify will be displayed as the email sender. Otherwise, the sender name will be displayed as **username@example.com**.              |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Tag                               | Tags identify cloud resources so that they can be categorized easily and searched quickly.                                                                                                                                                   |
-      |                                   |                                                                                                                                                                                                                                              |
-      |                                   | -  You can enter a maximum of 36 and 43 characters for **Key** and **Value**, respectively. Both **Key** and **Value** cannot start or end with a space and cannot contain any of the following special characters:=, \*, <, >, \\, ,, \|, / |
-      |                                   | -  Each topic supports up to 10 tags.                                                                                                                                                                                                        |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                                                                                                                                     |
+      +===================================+=================================================================================================================================================================================================================================+
+      | Topic Name                        | Specifies the topic name, which                                                                                                                                                                                                 |
+      |                                   |                                                                                                                                                                                                                                 |
+      |                                   | -  Contains only letters, digits, hyphens (-), and underscores (_) and must start with a letter or a digit.                                                                                                                     |
+      |                                   | -  Must contain 1 to 255 characters.                                                                                                                                                                                            |
+      |                                   | -  Must be unique and cannot be modified after the topic is created.                                                                                                                                                            |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Display Name                      | Specifies the message sender name, which must be less than 192 characters.                                                                                                                                                      |
+      |                                   |                                                                                                                                                                                                                                 |
+      |                                   | .. note::                                                                                                                                                                                                                       |
+      |                                   |                                                                                                                                                                                                                                 |
+      |                                   |    After you specify a display name in *Display name*\ **<username@example.com>** format, the name you specify will be displayed as the email sender. Otherwise, the sender name will be displayed as **username@example.com**. |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Tag                               | Tags identify cloud resources so that they can be categorized easily and searched quickly.                                                                                                                                      |
+      |                                   |                                                                                                                                                                                                                                 |
+      |                                   | -  For each resource, each tag key must be unique, and each tag key can have only one tag value.                                                                                                                                |
+      |                                   | -  You can enter a maximum of 36 and 43 characters for a tag key and a tag value, respectively. Only digits, letters, hyphens (-), at signs (@), and underscores (_) are allowed.                                               |
+      |                                   | -  Each topic supports up to 20 tags.                                                                                                                                                                                           |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **OK.**
 
