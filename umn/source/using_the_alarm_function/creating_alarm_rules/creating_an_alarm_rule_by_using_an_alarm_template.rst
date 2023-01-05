@@ -21,6 +21,10 @@ Creating an Alarm Rule
 
    a. Select an object and configure other parameters listed in :ref:`Table 1 <en-us_topic_0084572213__table2902443185911>`. Click **Next**.
 
+      .. note::
+
+         You can search for ECSs by name, ID, and IP address. For other cloud services, you can search only by ID.
+
       .. _en-us_topic_0084572213__table2902443185911:
 
       .. table:: **Table 1** Parameters

@@ -20,6 +20,10 @@ Cloud Eye provides the following functions:
 
    Monitoring starts automatically after you created resources such as Elastic Cloud Servers (ECSs). On the Cloud Eye console, you can view the service status and set alarm rules for these resources.
 
+-  Server monitoring
+
+   After you install the Agent (Telescope) on an ECS and Bare Metal Server (BMS), you can collect 60-second granularity ECS and BMS monitoring data in real-time. Cloud Eye provides 40 metrics, such as CPU, memory, and disk metrics. For details, see :ref:`Introduction to Server Monitoring <en-us_topic_0078721772>`.
+
 -  Flexible alarm rule configuration
 
    You can create alarm rules for multiple resources at the same time. After you create an alarm rule, you can modify, enable, disable, or delete it at any time. For more information, see :ref:`Alarm Rule Management <ces_01_0077>`.
@@ -31,6 +35,10 @@ Cloud Eye provides the following functions:
 -  Monitoring panel
 
    The panel enables you to view cross-service and cross-dimension monitoring data. It displays key metrics, providing an overview of the service status and monitoring details that you can use for troubleshooting. For more information, see :ref:`Introduction to Monitoring Panels <en-us_topic_0015479901>`.
+
+-  Resource group
+
+   A resource group allows you to add and monitor correlated resources and provides a collective health status for all resources that it contains.
 
 -  Data dump
 
