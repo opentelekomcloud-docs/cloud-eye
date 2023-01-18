@@ -23,4 +23,4 @@ Graphs are used to display the metric status of service resources in the **Alarm
 Alarm Statistics
 ----------------
 
-Alarm statistics display the number of critical, major, minor, and informational alarms. Click the number of one alarm severity, and you will be directed to the **Alarm Records** page displaying alarm rules of this severity.
+Alarm statistics display the number of critical, major, minor, and informational alarms. Click the number of one alarm severity, and you will be directed to the **Alarm History** page displaying alarm rules of this severity.

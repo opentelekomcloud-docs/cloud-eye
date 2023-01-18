@@ -10,6 +10,11 @@ Cloud Service Monitoring
 
 After enabling a cloud service supported by Cloud Eye, you can view the cloud service status and metric data, and create alarm rules for metrics on the Cloud Eye console.
 
+Server Monitoring
+-----------------
+
+By monitoring the ECS or BMS metrics, such as CPU usage, memory usage, and disk usage, you can ensure that the ECS or BMS run normally and prevent service interruptions caused by overuse of resources.
+
 Performance Issues
 ------------------
 
@@ -28,7 +33,7 @@ Custom monitoring supplements cloud service monitoring. If Cloud Eye does not pr
 Log Monitoring
 --------------
 
-Log monitoring enables you to monitor log content in real time. You can set alarm rules on Cloud Eye to monitor the logs, thus to reduce your O&M cost for log monitoring and simplify the log monitoring process.
+Log monitoring enables you to monitor log content in real time. You can set alarm rules on Cloud Eye to monitor the logs collected by Log Tank Service (LTS), thus to reduce your O&M cost for log monitoring and simplify the log monitoring process.
 
 Event Monitoring
 ----------------

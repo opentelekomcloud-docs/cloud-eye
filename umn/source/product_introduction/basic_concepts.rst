@@ -49,7 +49,7 @@ A topic is used to publish messages and subscribe to notifications. Topics provi
 Alarm Rules
 -----------
 
-You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, text messages, or by sending HTTP/HTTPS messages to servers.
+You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, text messages, or HTTP/HTTPS messages to servers.
 
 .. _ces_07_0006__section7358181816813:
 

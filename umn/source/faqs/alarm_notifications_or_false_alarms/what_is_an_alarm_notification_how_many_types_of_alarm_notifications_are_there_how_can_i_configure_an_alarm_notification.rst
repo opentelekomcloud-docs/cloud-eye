@@ -11,5 +11,5 @@ You can configure Cloud Eye to send or not send alarm notifications when you cre
 
 Cloud Eye can:
 
--  Send you email or text message notifications, or send HTTP/HTTPS messages to servers.
+-  Send you email notifications.
 -  Work with Auto Scaling to trigger the system to automatically add or remove servers.
