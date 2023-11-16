@@ -29,6 +29,17 @@ project = 'Cloud Eye'
 otcdocs_repo_name = 'opentelekomcloud-docs/cloud-eye'
 # Those variables are required for edit/bug links
 
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = ''
+otcdocs_doc_link = ''
+otcdocs_doc_title = ''
+otcdocs_doc_type = ''
+otcdocs_service_category = 'md'
+otcdocs_service_title = 'Cloud Eye'
+otcdocs_service_type = 'ces'
+otcdocs_search_environment = 'hc_de'
+otcdocs_search_url = "https://opensearch.eco.tsi-dev.otc-service.com/"
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
