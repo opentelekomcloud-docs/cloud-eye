@@ -6,10 +6,10 @@ API Description
 ===============
 
 -  :ref:`API Version Management <ces_03_0019>`
--  :ref:`Metric Management <ces_03_0022>`
--  :ref:`Alarm Rule Management <ces_03_0026>`
--  :ref:`Monitoring Data Management <ces_03_0032>`
--  :ref:`Quota Management <ces_03_0036>`
+-  :ref:`Metrics <ces_03_0022>`
+-  :ref:`Alarm Rules <ces_03_0026>`
+-  :ref:`Monitoring Data <ces_03_0032>`
+-  :ref:`Quotas <ces_03_0036>`
 -  :ref:`Event Monitoring <ces_03_0038>`
 
 .. toctree::
@@ -17,8 +17,8 @@ API Description
    :hidden: 
 
    api_version_management/index
-   metric_management/index
-   alarm_rule_management/index
-   monitoring_data_management/index
-   quota_management/index
+   metrics/index
+   alarm_rules/index
+   monitoring_data/index
+   quotas/index
    event_monitoring/index

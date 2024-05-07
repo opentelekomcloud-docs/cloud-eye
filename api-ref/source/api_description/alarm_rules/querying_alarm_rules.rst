@@ -8,7 +8,7 @@ Querying Alarm Rules
 Function
 --------
 
-This API is used to query the alarm rule list. You can specify the paging parameters to limit the number of query results displayed on a page. You can also set the sorting order of query results.
+This API is used to query alarm rules. You can specify the paging parameters to limit the number of query results displayed on a page. You can also set the sorting order of query results.
 
 URI
 ---
@@ -133,7 +133,7 @@ Response
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
       | alarm_id              | String                | Specifies the alarm rule ID.                                                                                                                           |
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | update_time           | long                  | Specifies when the alarm status changed. The time is a UNIX timestamp and the unit is ms.                                                              |
+      | update_time           | Long                  | Specifies when the alarm status changed. The time is a UNIX timestamp and the unit is ms.                                                              |
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
       | alarm_state           | String                | Specifies the alarm status, which can be                                                                                                               |
       |                       |                       |                                                                                                                                                        |
@@ -149,7 +149,7 @@ Response
       +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter             | Type                  | Description                                                                                                                                                                                           |
       +=======================+=======================+=======================================================================================================================================================================================================+
-      | namespace             | String                | Query the namespace of a service. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`.                                                                                       |
+      | namespace             | String                | Specifies the namespace of a service. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`.                                                                                   |
       +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | dimensions            | Array of objects      | Specifies the list of metric dimensions.                                                                                                                                                              |
       |                       |                       |                                                                                                                                                                                                       |
@@ -219,7 +219,7 @@ Response
       +=======================+=======================+==================================================================================================================================================================================================+
       | period                | Integer               | Specifies the interval (seconds) for checking whether the configured alarm rules are met.                                                                                                        |
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | filter                | String                | Specifies the data rollup method. The following methods are supported:                                                                                                                           |
+      | filter                | String                | Specifies the data rollup method, which can be                                                                                                                                                   |
       |                       |                       |                                                                                                                                                                                                  |
       |                       |                       | -  **average**: Cloud Eye calculates the average value of metric data within a rollup period.                                                                                                    |
       |                       |                       | -  **max**: Cloud Eye calculates the maximum value of metric data within a rollup period.                                                                                                        |
@@ -236,6 +236,30 @@ Response
       | unit                  | String                | Specifies the data unit. Enter up to 32 characters.                                                                                                                                              |
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | count                 | Integer               | Specifies the number of consecutive occurrence times that the alarm policy was met. Supported range: **1** to **5**                                                                              |
+      +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | suppress_duration     | Integer               | Specifies the interval for triggering an alarm if the alarm persists.                                                                                                                            |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | Possible intervals are as follows:                                                                                                                                                               |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **0**: Cloud Eye triggers the alarm only once.                                                                                                                                                   |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **300**: Cloud Eye triggers the alarm every 5 minutes.                                                                                                                                           |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **600**: Cloud Eye triggers the alarm every 10 minutes.                                                                                                                                          |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **900**: Cloud Eye triggers the alarm every 15 minutes.                                                                                                                                          |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **1800**: Cloud Eye triggers the alarm every 30 minutes.                                                                                                                                         |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **3600**: Cloud Eye triggers the alarm every hour.                                                                                                                                               |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **10800**: Cloud Eye triggers the alarm every 3 hours.                                                                                                                                           |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **21600**: Cloud Eye triggers the alarm every 6 hours.                                                                                                                                           |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **43200**: Cloud Eye triggers the alarm every 12 hours.                                                                                                                                          |
+      |                       |                       |                                                                                                                                                                                                  |
+      |                       |                       | **86400**: Cloud Eye triggers the alarm every day.                                                                                                                                               |
       +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    .. _ces_03_0027__table1933614411408:
@@ -307,7 +331,8 @@ Response
                       "comparison_operator": ">=",
                       "value": 12,
                       "unit": "Byte/s",
-                      "count": 3
+                      "count": 3,
+                      "suppress_duration": 1800
                   },
                   "alarm_enabled": true,
                   "alarm_level": 2,
@@ -356,7 +381,7 @@ Returned Values
    +---------------------------+----------------------------------------------------------------------+
    | 401 Unauthorized          | The authentication information is not provided or is incorrect.      |
    +---------------------------+----------------------------------------------------------------------+
-   | 403 Forbidden             | You are forbidden to access the page requested.                      |
+   | 403 Forbidden             | Access to the requested page is forbidden.                           |
    +---------------------------+----------------------------------------------------------------------+
    | 408 Request Timeout       | The request timed out.                                               |
    +---------------------------+----------------------------------------------------------------------+

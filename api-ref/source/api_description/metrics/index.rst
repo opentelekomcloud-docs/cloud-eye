@@ -2,8 +2,8 @@
 
 .. _ces_03_0022:
 
-Metric Management
-=================
+Metrics
+=======
 
 -  :ref:`Querying Metrics <ces_03_0023>`
 

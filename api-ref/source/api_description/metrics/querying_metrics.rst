@@ -8,7 +8,7 @@ Querying Metrics
 Function
 --------
 
-This API is used to query the metrics. You can specify the namespace, metric, dimension, sorting order, start records, and the maximum number of records when using this API to query metrics.
+This API is used to query metrics supported by Cloud Eye. You can specify the namespace, metric, dimension, sorting order, start records, and the maximum number of records when using this API to query metrics.
 
 URI
 ---

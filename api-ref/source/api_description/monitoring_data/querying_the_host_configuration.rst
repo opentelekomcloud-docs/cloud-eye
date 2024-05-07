@@ -8,7 +8,7 @@ Querying the Host Configuration
 Function
 --------
 
-This API is used to query the host configuration for a specified event type in a specified period of time. You can specify the dimension of data to be queried.
+This API is used to query the host configuration for a specified event type in a specified time range. You can specify the dimension of data to be queried.
 
 .. important::
 
@@ -98,7 +98,7 @@ Response
       +===========+========+==================================================================================+
       | type      | String | Specifies the event type, for example, **instance_host_info**.                   |
       +-----------+--------+----------------------------------------------------------------------------------+
-      | timestamp | long   | Specifies when the event is reported. It is a UNIX timestamp and the unit is ms. |
+      | timestamp | Long   | Specifies when the event is reported. It is a UNIX timestamp and the unit is ms. |
       +-----------+--------+----------------------------------------------------------------------------------+
       | value     | String | Specifies the host configuration information.                                    |
       +-----------+--------+----------------------------------------------------------------------------------+
