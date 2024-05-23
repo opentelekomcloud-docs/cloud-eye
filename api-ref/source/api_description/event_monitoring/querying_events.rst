@@ -8,7 +8,7 @@ Querying Events
 Function
 --------
 
-This API is used to query the events, including system events and custom events.
+This API is used to query events, including system events and custom events.
 
 URI
 ---

@@ -8,7 +8,7 @@ Querying Quotas
 Function
 --------
 
-This API is used to query a resource quota and the used amount. The current resource refers to alarm rules only.
+This API is used to query the alarm rule quota and the number of alarm rules that have been created.
 
 URI
 ---

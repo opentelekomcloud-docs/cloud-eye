@@ -2,11 +2,11 @@
 
 .. _ces_03_0026:
 
-Alarm Rule Management
-=====================
+Alarm Rules
+===========
 
 -  :ref:`Querying Alarm Rules <ces_03_0027>`
--  :ref:`Querying an Alarm Rule <ces_03_0028>`
+-  :ref:`Querying Details of an Alarm Rule <ces_03_0028>`
 -  :ref:`Enabling or Disabling an Alarm Rule <ces_03_0029>`
 -  :ref:`Deleting an Alarm Rule <ces_03_0030>`
 -  :ref:`Creating an Alarm Rule <ces_03_0031>`
@@ -16,7 +16,7 @@ Alarm Rule Management
    :hidden: 
 
    querying_alarm_rules
-   querying_an_alarm_rule
+   querying_details_of_an_alarm_rule
    enabling_or_disabling_an_alarm_rule
    deleting_an_alarm_rule
    creating_an_alarm_rule

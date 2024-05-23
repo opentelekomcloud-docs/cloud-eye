@@ -2,8 +2,8 @@
 
 .. _ces_03_0036:
 
-Quota Management
-================
+Quotas
+======
 
 -  :ref:`Querying Quotas <ces_03_0037>`
 

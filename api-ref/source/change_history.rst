@@ -21,7 +21,7 @@ Change History
 |                                   | -  Modified the method of obtaining a resource ID and added an example in :ref:`Reporting Events <en-us_topic_0109034020>`.                                                 |
 |                                   | -  Modified the example value of the **time** parameter in :ref:`Table 3 <en-us_topic_0109034020__table3736458191816>` of :ref:`Reporting Events <en-us_topic_0109034020>`. |
 |                                   | -  Modified the function description in :ref:`Reporting Events <en-us_topic_0109034020>`.                                                                                   |
-|                                   | -  Modified :ref:`Querying Monitoring Data in Batches <ces_03_0034>`.                                                                                                       |
+|                                   | -  Modified :ref:`Querying Monitoring Data of Multiple Metrics <ces_03_0034>`.                                                                                              |
 +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 2019-08-31                        | This release incorporates the following change:                                                                                                                             |
 |                                   |                                                                                                                                                                             |
