@@ -56,11 +56,11 @@ GET /V1.0/{project_id}/metric-data?namespace={namespace}&metric_name={metric_nam
       +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | period          | Yes             | Integer         | Specifies how often Cloud Eye aggregates data, which can be                                                                                                                                                                                                        |
       |                 |                 |                 |                                                                                                                                                                                                                                                                    |
-      |                 |                 |                 | -  **1**: Cloud Eye displays raw data.                                                                                                                                                                                                                             |
+      |                 |                 |                 | -  **1**: Cloud Eye performs no aggregation and displays raw data.                                                                                                                                                                                                 |
       |                 |                 |                 |                                                                                                                                                                                                                                                                    |
       |                 |                 |                 | -  **300**: Cloud Eye aggregates data every 5 minutes.                                                                                                                                                                                                             |
       |                 |                 |                 | -  **1200**: Cloud Eye aggregates data every 20 minutes.                                                                                                                                                                                                           |
-      |                 |                 |                 | -  **3600**: Cloud Eye aggregates data every 1 hour.                                                                                                                                                                                                               |
+      |                 |                 |                 | -  **3600**: Cloud Eye aggregates data every hour.                                                                                                                                                                                                                 |
       |                 |                 |                 | -  **14400**: Cloud Eye aggregates data every 4 hours.                                                                                                                                                                                                             |
       |                 |                 |                 | -  **86400**: Cloud Eye aggregates data every 24 hours.                                                                                                                                                                                                            |
       +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -108,7 +108,7 @@ Response
 
 -  Response parameters
 
-   .. table:: **Table 3** Response parameters
+   .. table:: **Table 3** Parameter description
 
       +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter             | Type                  | Description                                                                                                                                                                                           |
@@ -205,7 +205,7 @@ Returned Values
    +---------------------------+----------------------------------------------------------------------+
    | 401 Unauthorized          | The authentication information is not provided or is incorrect.      |
    +---------------------------+----------------------------------------------------------------------+
-   | 403 Forbidden             | You are forbidden to access the page requested.                      |
+   | 403 Forbidden             | Access to the requested page is forbidden.                           |
    +---------------------------+----------------------------------------------------------------------+
    | 408 Request Timeout       | The request timed out.                                               |
    +---------------------------+----------------------------------------------------------------------+

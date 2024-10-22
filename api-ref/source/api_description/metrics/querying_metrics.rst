@@ -10,6 +10,10 @@ Function
 
 This API is used to query metrics supported by Cloud Eye. You can specify the namespace, metric, dimension, sorting order, start records, and the maximum number of records when using this API to query metrics.
 
+.. important::
+
+   After a cloud service resource is deleted, its data is cached for 3 hours, so metrics of the resource can still be queried within the 3 hours.
+
 URI
 ---
 
@@ -32,7 +36,7 @@ GET /V1.0/{project_id}/metrics
       +-----------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter       | Mandatory       | Type            | Description                                                                                                                                                                                           |
       +=================+=================+=================+=======================================================================================================================================================================================================+
-      | namespace       | No              | String          | Query the namespace of a service. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`.                                                                                       |
+      | namespace       | No              | String          | Specifies the namespace of a service. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`.                                                                                   |
       |                 |                 |                 |                                                                                                                                                                                                       |
       |                 |                 |                 | The namespace must be in the **service.item** format and contain 3 to 32 characters. **service** and **item** each must start with a letter and contain only letters, digits, and underscores (_).    |
       +-----------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

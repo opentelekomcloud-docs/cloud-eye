@@ -84,7 +84,7 @@ Response
 
 -  Response parameters
 
-   .. table:: **Table 4** Response parameters
+   .. table:: **Table 4** Parameter description
 
       +-----------------------+-----------------------+--------------------------------------------------------------------------------+
       | Parameter             | Type                  | Description                                                                    |
