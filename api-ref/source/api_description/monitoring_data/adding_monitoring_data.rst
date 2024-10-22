@@ -10,6 +10,8 @@ Function
 
 This API is used to add one or more pieces of custom metric monitoring data to solve the problem that the system metrics cannot meet specific service requirements.
 
+For details about the monitoring data retention period, see `How Long Is Metric Data Retained? <https://docs.otc.t-systems.com/cloud-eye/umn/faqs/general_consulting/how_long_is_metric_data_retained.html#ces-faq-0010>`__
+
 URI
 ---
 
@@ -211,7 +213,7 @@ Returned Values
    +---------------------------+----------------------------------------------------------------------+
    | 401 Unauthorized          | The authentication information is not provided or is incorrect.      |
    +---------------------------+----------------------------------------------------------------------+
-   | 403 Forbidden             | You are forbidden to access the page requested.                      |
+   | 403 Forbidden             | Access to the requested page is forbidden.                           |
    +---------------------------+----------------------------------------------------------------------+
    | 408 Request Timeout       | The request timed out.                                               |
    +---------------------------+----------------------------------------------------------------------+

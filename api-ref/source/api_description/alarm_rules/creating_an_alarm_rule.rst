@@ -334,9 +334,9 @@ Request
 Response
 --------
 
--  Response parameters
+-  Response parameter
 
-   .. table:: **Table 8** Response parameters
+   .. table:: **Table 8** Parameter description
 
       ========= ====== ============================
       Parameter Type   Description

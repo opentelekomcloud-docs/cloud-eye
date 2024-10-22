@@ -38,7 +38,7 @@ Request
 
       If **period** is **1**, the maximum interval between **from** and **to** is 4 hours. If the interval between **from** and **to** is longer than 4 hours, adjust the value of **from** to **to** - **4*3600*1000**.
 
-      If **period** is **300**, the maximum interval between **from** and **to** is one day. If the interval between **from** and **to** is longer than 1 day, adjust the value of **from** to **to** - **24*3600*1000**.
+      If **period** is **300**, the maximum interval between **from** and **to** is one day. If the interval between **from** and **to** is longer than one day, adjust the value of **from** to **to** - **24*3600*1000**.
 
       If **period** is **1200**, the maximum interval between **from** and **to** is three days. If the interval between **from** and **to** is longer than three days, adjust the value of **from** to **to** - **3*24*3600*1000**.
 
@@ -91,29 +91,31 @@ Request
 
    .. table:: **Table 3** **metrics** data structure description
 
-      +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter       | Mandatory       | Type             | Description                                                                                                                      |
-      +=================+=================+==================+==================================================================================================================================+
-      | namespace       | Yes             | String           | Specifies the metric namespace, which must be in the **service.item** format and contain 3 to 32 characters.                     |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | **service** and **item** each must start with a letter and contain only letters, digits, and underscores (_).                    |
-      +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------+
-      | dimensions      | Yes             | Array of objects | Specifies metric dimensions. **dimensions** is an array consisting of a maximum of four JSON objects.                            |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | One dimension is a JSON object, and its structure is as follows:                                                                 |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | {                                                                                                                                |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | "name": "instance_id",                                                                                                           |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | "value": "33328f02-3814-422e-b688-bfdba93d4050"                                                                                  |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | }                                                                                                                                |
-      |                 |                 |                  |                                                                                                                                  |
-      |                 |                 |                  | For details, see :ref:`Table 4 <ces_03_0034__table346618584132>`.                                                                |
-      +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------+
-      | metric_name     | Yes             | String           | Specifies the metric name. Start with a letter. Enter 1 to 64 characters. Only letters, digits, and underscores (_) are allowed. |
-      +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter       | Mandatory       | Type             | Description                                                                                                                                                                                           |
+      +=================+=================+==================+=======================================================================================================================================================================================================+
+      | namespace       | Yes             | String           | Specifies the namespace of a service. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`.                                                                                   |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | The namespace must be in the **service.item** format and contain 3 to 32 characters. **service** and **item** each must start with a letter and contain only letters, digits, and underscores (_).    |
+      +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | metric_name     | Yes             | String           | Specifies the metric ID. For example, if the monitoring metric of an ECS is CPU usage, **metric_name** is **cpu_util**. For details, see :ref:`Services Interconnected with Cloud Eye <ces_03_0059>`. |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | The value must start with a letter. Enter 1 to 64 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed.                                                                     |
+      +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | dimensions      | Yes             | Array of objects | Specifies metric dimensions. **dimensions** is an array consisting of a maximum of four JSON objects.                                                                                                 |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | One dimension is a JSON object, and its structure is as follows:                                                                                                                                      |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | {                                                                                                                                                                                                     |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | "name": "instance_id",                                                                                                                                                                                |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | "value": "33328f02-3814-422e-b688-bfdba93d4050"                                                                                                                                                       |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | }                                                                                                                                                                                                     |
+      |                 |                 |                  |                                                                                                                                                                                                       |
+      |                 |                 |                  | For details, see :ref:`Table 4 <ces_03_0034__table346618584132>`.                                                                                                                                     |
+      +-----------------+-----------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    .. _ces_03_0034__table346618584132:
 
@@ -126,19 +128,123 @@ Request
       |                 |                 |                 |                                                                                                                                                                                                                     |
       |                 |                 |                 | Start with a letter. Enter 1 to 32 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed.                                                                                                  |
       +-----------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | value           | Yes             | String          | Specifies the dimension value, for example, an ECS ID.                                                                                                                                                              |
+      | value           | Yes             | String          | Specifies the dimension value, for example, an ECS ID. **dimensions** can be obtained from the response body by calling the API for :ref:`querying metrics <ces_03_0023>`.                                          |
       |                 |                 |                 |                                                                                                                                                                                                                     |
       |                 |                 |                 | Start with a letter or a digit. Enter 1 to 256 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed.                                                                                      |
       +-----------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    .. note::
 
-      -  **dimensions** can be obtained from the response body by calling the API for :ref:`Querying Metrics <ces_03_0023>`.
+      -  **dimensions** can be obtained from the response body by calling the API for :ref:`querying metrics <ces_03_0023>`.
       -  OBS metric data can be queried only when the related OBS APIs are called.
 
 -  Example request
 
-   Request example 1: View the average **cpu_util** of the ECS whose **instance_id** is **faea5b75-e390-4e2b-8733-9226a9026070** and the average **network_vm_connections** of the ECS whose **instance_id** is **06b4020f-461a-4a52-84da-53fa71c2f42b**. The monitoring data was collected from 20:00:00 to 22:00:00 on April 30, 2019.
+   Request example 1: Query the average disk usage of the OS on the ECS whose **instance_id** is **07d878a9-2243-4e84-aeef-c47747d18024** and **mount_point** is **012bec14bc176310c19f40e384fd629b** from 20:00:00 to 22:00:00 on April 30, 2019.
+
+   .. code-block::
+
+      {
+          "from": 1556625600000,
+          "to": 1556632800000,
+          "period": "1",
+          "filter": "average",
+          "metrics": [{
+              "dimensions": [{
+                  "name": "instance_id",
+                  "value": "07d878a9-2243-4e84-aeef-c47747d18024"
+              }, {
+                  "name": "mount_point",
+                  "value": "012bec14bc176310c19f40e384fd629b"
+              }],
+              "metric_name": "disk_usedPercent",
+              "namespace": "AGT.ECS"
+          }]
+      }
+
+   Request example 2: Query the average memory usage of the OS of the ECS whose **instance_id** is **238764d4-c4e1-4274-88a1-5956b057766b** from 20:00:00 to 22:00:00 on April 30, 2019.
+
+   .. code-block::
+
+      {
+          "from": 1556625600000,
+          "to": 1556632800000,
+          "period": "1",
+          "filter": "average",
+          "metrics": [{
+              "dimensions": [{
+                  "name": "instance_id",
+                  "value": "238764d4-c4e1-4274-88a1-5956b057766b"
+              }],
+              "metric_name": "mem_usedPercent",
+              "namespace": "AGT.ECS"
+          }]
+      }
+
+   Request example 3: Query the average **cpu_util** of the five ECSs whose **instance_id** are **faea5b75-e390-4e2b-8733-9226a9026070**, **faea5b75-e390-4e2b-8733-9226a9026071**, **faea5b75-e390-4e2b-8733-9226a9026072**, **faea5b75-e390-4e2b-8733-9226a9026073**, and **faea5b75-e390-4e2b-8733-9226a9026074** from 00:00:00 to 23:59:59 on August 21, 2024. Query five metrics. The monitoring period is 60,000 ms. The maximum value of (**to**\ ``-``\ **from**) is 36,000,000. The value of the request parameter (**to**\ ``-``\ **from**) is 86,399,000, which exceeds the maximum value 36,000,000. The formula is as follows: The number of metrics x (**to**\ ``-``\ **from**)/Monitoring period <= 3000. The value of **from** in the request parameter is automatically changed to **to**-36,000,000, that is, 1,724,219,999,000.
+
+   .. code-block::
+
+      {
+          "metrics": [
+             {
+                  "namespace": "SYS.ECS",
+                  "dimensions": [
+                      {
+                          "name": "instance_id",
+                          "value": "faea5b75-e390-4e2b-8733-9226a9026070"
+                      }
+                  ],
+                  "metric_name": "cpu_util"
+              },
+             {
+                  "namespace": "SYS.ECS",
+                  "dimensions": [
+                      {
+                          "name": "instance_id",
+                          "value": "faea5b75-e390-4e2b-8733-9226a9026071"
+                      }
+                  ],
+                  "metric_name": "cpu_util"
+              },
+                     {
+                  "namespace": "SYS.ECS",
+                  "dimensions": [
+                      {
+                          "name": "instance_id",
+                          "value": "faea5b75-e390-4e2b-8733-9226a9026072"
+                      }
+                  ],
+                  "metric_name": "cpu_util"
+              },
+                     {
+                  "namespace": "SYS.ECS",
+                  "dimensions": [
+                      {
+                          "name": "instance_id",
+                          "value": "faea5b75-e390-4e2b-8733-9226a9026073"
+                      }
+                  ],
+                  "metric_name": "cpu_util"
+              },
+                     {
+                  "namespace": "SYS.ECS",
+                  "dimensions": [
+                      {
+                          "name": "instance_id",
+                          "value": "faea5b75-e390-4e2b-8733-9226a9026074"
+                      }
+                  ],
+                  "metric_name": "cpu_util"
+              },
+          ],
+          "from": 1724169600000,
+          "to": 1724255999000,
+          "period": "1",
+          "filter": "average"
+      }
+
+   Request example 4: View the average **cpu_util** of the ECS whose **instance_id** is **faea5b75-e390-4e2b-8733-9226a9026070** and the average **network_vm_connections** of the ECS whose **instance_id** is **06b4020f-461a-4a52-84da-53fa71c2f42b**. The monitoring data was collected from 20:00:00 to 22:00:00 on April 30, 2019.
 
    .. code-block::
 
@@ -171,7 +277,7 @@ Request
           "filter": "average"
       }
 
-   Request example 2: View the sums of **rds021_myisam_buf_usage** of the RDS instance whose **rds_cluster_id** is **3c8cc15614ab46f5b8743317555e0de2in01** and the RDS instance whose **rds_cluster_id** is **3b2fa8b55a9b4adca3713962a9d31884in01**. The monitoring data was collected from 20:00:00 to 22:00:00 on April 30, 2019.
+   Request example 5: View the sums of **rds021_myisam_buf_usage** of the RDS instance whose **rds_cluster_id** is **3c8cc15614ab46f5b8743317555e0de2in01** and the RDS instance whose **rds_cluster_id** is **3b2fa8b55a9b4adca3713962a9d31884in01**. The monitoring data was collected from 20:00:00 to 22:00:00 on April 30, 2019.
 
    .. code-block::
 
@@ -204,7 +310,7 @@ Request
           "filter": "sum"
       }
 
-   Example request 3: View the minimum **proc_specified_count** of the server whose **instance_id** is **cd841102-f6b1-407d-a31f-235db796dcbb** and **proc** is **b28354b543375bfa94dabaeda722927f**. The monitoring data is collected from 20:00:00 to 22:00:00 on April 30, 2019 and the rollup period is 20 minutes.
+   Example request 6: View the minimum **proc_specified_count** of the server whose **instance_id** is **cd841102-f6b1-407d-a31f-235db796dcbb** and **proc** is **b28354b543375bfa94dabaeda722927f**. The monitoring data is collected from 20:00:00 to 22:00:00 on April 30, 2019 and the rollup period is 20 minutes.
 
    .. code-block::
 
@@ -236,7 +342,7 @@ Response
 
 -  Response parameters
 
-   .. table:: **Table 5** Response parameters
+   .. table:: **Table 5** Parameter description
 
       +-----------------------+-----------------------+--------------------------------------------------------------------+
       | Parameter             | Type                  | Description                                                        |
