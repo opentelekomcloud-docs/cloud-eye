@@ -13,7 +13,7 @@ Server Monitoring
 -  :ref:`Managing the Agent <ces_01_0035>`
 -  :ref:`Process Monitoring <ces_01_0040>`
 -  :ref:`Viewing Server Monitoring Metrics <en-us_topic_0079332017>`
--  :ref:`Creating an Alarm Rule to Monitor a Server <ces_01_0042>`
+-  :ref:`Creating an Alarm Rule to Monitor a Server <ces_01_0042-a>`
 
 .. toctree::
    :maxdepth: 1

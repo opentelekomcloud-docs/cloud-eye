@@ -25,9 +25,13 @@ Procedure
 
 #. Log in to the ECS.
 
-#. Open the **conf.json** file in the **telescope_windows_amd64\\bin** folder.
+#. Open the **conf.json** file in the **telescope_windows_amd64\\bin** directory.
 
 #. Configure the following parameters. For details, see :ref:`Table 1 <ces_01_0032__table177211067>`.
+
+   .. important::
+
+      Storing plaintext AKs and SKs poses great security risks. You are advised to delegate all ECS or BMS Agents in the region. For details, see :ref:`How Can I Create an Agency? <ces_faq_0028>`
 
    .. code-block::
 
@@ -57,9 +61,7 @@ Procedure
       |                                   |    -  The ECS ID must be unique at all sites, that is, in the same region, **InstanceId** used by the Agent cannot be the same. Otherwise, errors may occur.                           |
       |                                   |    -  The **InstanceId** value must be consistent with the actual ECS or BMS ID. Otherwise, you cannot see the OS monitoring data on Cloud Eye.                                        |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | ProjectId                         | Specifies the project ID. You do not need to configure **ProjectId**. Retain **"ProjectId": ""**. If you wish to configure it,                                                         |
-      |                                   |                                                                                                                                                                                        |
-      |                                   | perform the following operations:                                                                                                                                                      |
+      | ProjectId                         | Specifies the project ID. You do not need to configure **ProjectId**. Retain **"ProjectId": ""**. If you wish to configure it, perform the following operations:                       |
       |                                   |                                                                                                                                                                                        |
       |                                   | a. Log in to the Cloud Eye console, click the username in the upper right corner, and choose **My Credentials**.                                                                       |
       |                                   | b. Under **Projects**, obtain the project ID for the region where the ECS or BMS is located.                                                                                           |

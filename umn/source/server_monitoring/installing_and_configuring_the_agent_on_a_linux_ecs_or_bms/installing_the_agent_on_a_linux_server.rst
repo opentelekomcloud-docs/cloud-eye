@@ -29,15 +29,9 @@ Procedure
 
    .. code-block::
 
-      cd /usr/local && wget https://telescope-eu-de.obs.eu-de.otctest.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+      cd /usr/local && wget https://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
 
-   The Agent is installed if the following command output is displayed.
-
-
-   .. figure:: /_static/images/en-us_image_0000001425731481.png
-      :alt: **Figure 1** Successful installation
-
-      **Figure 1** Successful installation
+   If **Telescope process starts successfully** or **Success to install telescope** is displayed, the Agent is successfully installed.
 
 #. Configure the Agent by referring to :ref:`Restoring the Agent Configurations on a Linux Server <ces_01_0030>` or :ref:`(Optional) Manually Configuring the Agent (Linux) <ces_01_0031>`.
 

@@ -22,10 +22,15 @@ Scenarios
 
 Whether you are using ECSs or BMSs, you can use server monitoring to track various OS metrics, monitor server resource usage, and query monitoring data when faults occur.
 
+Constraints
+-----------
+
+Server monitoring is available only for servers using public images provided by a cloud service platform. If any problem occurs when you use a private image, Cloud Eye will not provide technical support.
+
 Monitoring Capabilities
 -----------------------
 
-Server monitoring provides multiple metrics, such as metrics for CPU, memory, disk, and network usage, meeting the basic monitoring and O&M requirements for servers.
+Server monitoring provides multiple metrics, such as metrics for CPU, memory, disk, and network usage, meeting the basic monitoring and O&M requirements for servers. For details about metrics, see :ref:`Services Interconnected with Cloud Eye <en-us_topic_0202622212>`.
 
 Resource Usage
 --------------

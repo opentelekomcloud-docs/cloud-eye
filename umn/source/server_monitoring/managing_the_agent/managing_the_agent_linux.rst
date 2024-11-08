@@ -41,7 +41,7 @@ Log in to an ECS or BMS and run the following command to stop the Agent:
 
 .. note::
 
-   If the Agent installation fails, it may be impossible to stop the Agent normally. In this case, run the following command to stop the Agent:
+   If the Agent installation fails, it may be impossible to stop the Agent. In this case, run the following command to stop the Agent:
 
    **/usr/local/telescope/telescoped stop**
 

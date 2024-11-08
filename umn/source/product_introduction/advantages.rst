@@ -20,14 +20,14 @@ Alarms are generated and notifications are sent to you in real time.
 Visualized Monitoring
 ---------------------
 
-You can create monitoring panels and graphs to compare multiple metrics. The graphs automatically refresh to display the latest data.
+You can create dashboards and graphs to compare multiple metrics. The graphs are refreshed automatically to always display the latest data.
 
 Multiple Notification Types
 ---------------------------
 
-You can enable **Alarm Notification** when creating alarm rules. When the metric reaches the threshold specified in an alarm rule, Cloud Eye notifies you by emails or text messages, or by sending HTTP/HTTPS messages to an IP address of your choice, allowing you to keep track of the statuses of cloud services and enabling you to build smart alarm handling programs.
+You can enable **Alarm Notification** when creating alarm rules. When a metric reaches the threshold specified in an alarm rule, Cloud Eye notifies you by emails or SMS messages, or by sending HTTP/HTTPS messages to an IP address of your choice, allowing you to keep track of the statuses of cloud services and enabling you to build smart alarm handling programs.
 
 Batch Creation of Alarm Rules
 -----------------------------
 
-Alarm templates allow you to create alarm rules in batches for multiple cloud services.
+You can use alarm templates to create alarm rules in batches for multiple cloud services.

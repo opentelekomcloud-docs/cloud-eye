@@ -25,11 +25,11 @@ Prerequisites
 
    .. table:: **Table 1** Installation package path
 
-      +-----------------------------------------+--------+-------------------------------------------------------------------------------------------------+
-      | Name                                    | Format | Download Path                                                                                   |
-      +=========================================+========+=================================================================================================+
-      | Installation package for 64-bit Windows | zip    | EU-DE: http://telescope-eu-de.obs.eu-de.otctest.t-systems.com/agent/telescope_windows_amd64.zip |
-      +-----------------------------------------+--------+-------------------------------------------------------------------------------------------------+
+      +-----------------------------------------+--------+---------------------------------------------------------------------------------------------+
+      | Name                                    | Format | Download Path                                                                               |
+      +=========================================+========+=============================================================================================+
+      | Installation package for 64-bit Windows | zip    | EU-DE: http://telescope-eu-de.obs.eu-de.otc.t-systems.com/agent/telescope_windows_amd64.zip |
+      +-----------------------------------------+--------+---------------------------------------------------------------------------------------------+
 
 Procedure
 ---------
@@ -48,7 +48,7 @@ Procedure
 
       After you configure the Agent, its status is still displayed as **Uninstalled** because no monitoring data is reported yet. Wait 3 to 5 minutes and refresh the page.
 
-#. On the **Server Monitoring** page, select the target ECS and click **Restore Agent Configurations**.
+#. On the **Server Monitoring** page, select the ECS and click **Restore Agent Configurations**.
 
 #. In the displayed **Restore Agent Configurations** dialog box, click **One-Click Restore**.
 

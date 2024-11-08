@@ -17,7 +17,7 @@ Procedure
 
 #. Click |image1| in the upper left to select a region and project.
 
-#. Click **Service List** in the upper left corner, and select **Identity and Access Management**.
+#. Click **Service List** in the upper left corner and select **Identity and Access Management**.
 
 #. In the navigation pane on the left, choose **Agencies**. In the upper right corner, click **Create Agency**.
 
@@ -63,7 +63,7 @@ If no agency is configured for a server, perform the following operations to con
 
       If you purchase a BMS, choose **Computing** > **Bare Metal Server**.
 
-#. Click the name of the target ECS on which the Agent is installed.
+#. Click the name of the ECS on which the Agent is installed.
 #. In the **Management Information** area, select the agency created in :ref:`5 <ces_faq_0028__en-us_topic_0105568468_en-us_topic_0067564154_li34323751141623>` for **Agency** and click the green tick to make the agency take effect.
 
 .. |image1| image:: /_static/images/en-us_image_0110267213.png

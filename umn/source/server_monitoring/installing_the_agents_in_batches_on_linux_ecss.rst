@@ -20,7 +20,6 @@ After binding an elastic IP address (EIP) to an ECS, use the ECS as the executio
    -  The target nodes in one batch must be deployed in the same VPC.
 
    -  For servers running Windows OSs, Agents cannot be installed in batches.
-   -  Agents cannot be installed in batches on BMSs.
 
 Prerequisites
 -------------
@@ -44,11 +43,11 @@ Procedure
 
 #. Run the following commands to set the permission for **user.pem** to **0600** and download the batch installation script:
 
-   **cd /usr/local && chmod 0600 user.pem && wget http://telescope-eu-de.obs.eu-de.otctest.t-systems.com/scripts/batchInstall && chmod +x batchInstall**
+   **cd /usr/local && chmod 0600 user.pem && wget http://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/batchInstall && chmod +x batchInstall**
 
 #. Run the following command to install the Agent on the execution and target nodes:
 
-   **cd /usr/local && ./batchInstall -pem -c "wget https://telescope-eu-de.obs.eu-de.otctest.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh"**
+   **cd /usr/local && ./batchInstall -pem -c "wget https://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh"**
 
 #. After the installation completes, log in to the Cloud Eye console.
 
