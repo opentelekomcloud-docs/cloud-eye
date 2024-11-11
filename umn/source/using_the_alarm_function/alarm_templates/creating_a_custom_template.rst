@@ -5,76 +5,51 @@
 Creating a Custom Template
 ==========================
 
-#. On the **Alarm Templates** page, click **Create Custom Template**.
+#. Log in to the management console.
 
-#. In the **Configure Template** step, specify the parameters listed in :ref:`Table 1 <ces_01_0083__table1956141511220>`.
+#. In the upper left corner, select a region and project.
 
-   .. _ces_01_0083__table1956141511220:
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+
+#. Choose **Alarm Management** > **Alarm Templates**.
+
+#. Click **Create Custom Template**.
+
+#. On the **Create Custom Template** page, configure parameters by referring to :ref:`Table 1 <ces_01_0083__table87269381527>`.
+
+
+   .. figure:: /_static/images/en-us_image_0000001645251798.png
+      :alt: **Figure 1** Create Custom Template
+
+      **Figure 1** Create Custom Template
+
+   .. _ces_01_0083__table87269381527:
 
    .. table:: **Table 1** Parameters
-
-      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                              |
-      +===================================+==========================================================================================================================+
-      | Resource Type                     | Specifies the type of the resource the alarm rule is created for.                                                        |
-      |                                   |                                                                                                                          |
-      |                                   | Example value: **Elastic Cloud Server**                                                                                  |
-      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-      | Dimension                         | Specifies the metric dimension of the selected resource type.                                                            |
-      |                                   |                                                                                                                          |
-      |                                   | Example value: **ECSs**                                                                                                  |
-      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-      | Import Template                   | -  Enable                                                                                                                |
-      |                                   |                                                                                                                          |
-      |                                   |    Select an existing template, then you can use or modify default alarm rules contained in the selected alarm template. |
-      |                                   |                                                                                                                          |
-      |                                   | -  Disable                                                                                                               |
-      |                                   |                                                                                                                          |
-      |                                   |    Manually add one or more alarm rules.                                                                                 |
-      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-
-#. Click **Next** to go to the **Add Alarm Rule** step. Specify parameters listed in :ref:`Table 2 <ces_01_0083__table691022118227>`. You can add one or more rules to the alarm template.
-
-   .. _ces_01_0083__table691022118227:
-
-   .. table:: **Table 2** Parameters
 
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter                         | Description                                                                                                                            |
       +===================================+========================================================================================================================================+
-      | Metric                            | For example:                                                                                                                           |
+      | Name                              | Specifies the alarm rule name. The system generates a random name, which you can modify.                                               |
       |                                   |                                                                                                                                        |
-      |                                   | -  CPU Usage                                                                                                                           |
-      |                                   |                                                                                                                                        |
-      |                                   |    Indicates the CPU usage of the monitored object in percent.                                                                         |
-      |                                   |                                                                                                                                        |
-      |                                   | -  Memory Usage                                                                                                                        |
-      |                                   |                                                                                                                                        |
-      |                                   |    Indicates the memory usage of the monitored object in percent.                                                                      |
+      |                                   | Example value: **alarmTemplate-c6ft**                                                                                                  |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-      | Alarm Policy                      | Specifies the policy for triggering an alarm.                                                                                          |
+      | Description                       | (Optional) Provides supplementary information about the custom template.                                                               |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+      | Alarm Type                        | You can select **Metric** or **Event**.                                                                                                |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+      | Method                            | You can select **Using existing template** or **Configure manually**.                                                                  |
       |                                   |                                                                                                                                        |
-      |                                   | For example, an alarm is triggered if the average value of the monitored metric is 80% or more for three consecutive 5-minute periods. |
+      |                                   | -  **Using existing template**: Select an existing template for **Template**. The alarm rules in the template are automatically added. |
+      |                                   | -  **Configure manually**: You can customize alarm policies as required.                                                               |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-      | Alarm Severity                    | Specifies the alarm severity, which can be **Critical**, **Major**, **Minor**, or **Informational**.                                   |
+      | Add Resource Type                 | Specifies the type of the resource the alarm rule is created for.                                                                      |
+      |                                   |                                                                                                                                        |
+      |                                   | Example value: **Elastic Cloud Server**                                                                                                |
+      |                                   |                                                                                                                                        |
+      |                                   | .. note::                                                                                                                              |
+      |                                   |                                                                                                                                        |
+      |                                   |    A maximum of 50 resource types can be added for each service.                                                                       |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-      | Operation                         | When the number of the alarm policies is two or more, you can delete alarm policies.                                                   |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
 
-#. Click **Next** to go to the **Specify Template Details** step. Specify parameters listed in :ref:`Table 3 <ces_01_0083__table722215293225>`.
-
-   .. _ces_01_0083__table722215293225:
-
-   .. table:: **Table 3** Parameters
-
-      +-----------------------------------+-----------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                   |
-      +===================================+===============================================================================================+
-      | Name                              | Specifies the custom template name. The system generates a random name, which you can modify. |
-      |                                   |                                                                                               |
-      |                                   | Example value: **alarmTemplate-ku0x**                                                         |
-      +-----------------------------------+-----------------------------------------------------------------------------------------------+
-      | Description                       | (Optional) Provides supplementary information about the alarm template.                       |
-      +-----------------------------------+-----------------------------------------------------------------------------------------------+
-
-#. Click **Finish**.
+#. Click **Create**.

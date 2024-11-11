@@ -7,7 +7,7 @@ Event Monitoring
 
 -  :ref:`Introduction to Event Monitoring <en-us_topic_0109974074>`
 -  :ref:`Viewing Event Monitoring Data <ces_01_0051>`
--  :ref:`Creating an Alarm Rule to Monitor an Event <ces_01_0052>`
+-  :ref:`Creating an Alarm Rule to Monitor an Event <ces_01_0052-a>`
 -  :ref:`Events Supported by Event Monitoring <ces_01_0054>`
 
 .. toctree::

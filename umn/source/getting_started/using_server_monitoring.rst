@@ -36,13 +36,13 @@ Using Server Monitoring
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Server Monitoring**.
 
-#. Select the target ECS or BMS and install the Agent on it.
+#. Select the ECS or BMS and install the Agent on it.
 
-   a. Change the DNS server address of and add security group rules to the target ECS or BMS. For details, see :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Linux) <en-us_topic_0150354069>` or :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Windows) <en-us_topic_0150366044>`.
+   a. Change the DNS server address of and add security group rules to the ECS or BMS. For details, see :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Linux) <en-us_topic_0150354069>` or :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Windows) <en-us_topic_0150366044>`.
    b. Install the Agent. For details, see :ref:`Installing the Agent on a Linux Server <ces_01_0029>` or :ref:`Installing and Configuring the Agent on a Windows Server <en-us_topic_0110258146>`.
 
 #. After 5 minutes, check whether the Agent status is **Running**.

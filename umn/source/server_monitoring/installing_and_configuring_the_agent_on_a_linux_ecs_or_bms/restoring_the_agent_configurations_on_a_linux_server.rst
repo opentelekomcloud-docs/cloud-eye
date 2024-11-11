@@ -21,7 +21,7 @@ Restoring the Agent Configurations
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**. In the navigation pane on the left, choose **Server Monitoring**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**. In the navigation pane on the left, choose **Server Monitoring**.
 
 #. On the **Server Monitoring** page, select a server that has the Agent installed.
 

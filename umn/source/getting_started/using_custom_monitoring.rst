@@ -14,13 +14,13 @@ Viewing Custom Monitoring
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Custom Monitoring**.
 
 #. On the **Custom Monitoring** page, view the data reported by yourself through API requests, including custom services and metrics.
 
-#. Locate the row that contains the target cloud service resource and click **View Metric** in the **Operation** column.
+#. Locate the cloud service resource and click **View Metric** in the **Operation** column.
 
    On the page displayed, you can view graphs based on raw data collected in **1h**, **3h**, and **12h**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
 
@@ -35,13 +35,13 @@ Creating an Alarm Rule
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Custom Monitoring**.
 
-#. Locate the target cloud service resource and click **Create Alarm Rule** in the **Operation** column.
+#. Locate the cloud service resource and click **Create Alarm Rule** in the **Operation** column.
 
-#. Configure the alarm rule name, alarm policy, and alarm notification as prompted.
+#. Configure the alarm rule name, alarm policy, and alarm notification.
 
    After you create the alarm rule, if the custom metric data reaches the threshold, Cloud Eye immediately notifies you through SMN that an exception has occurred.
 

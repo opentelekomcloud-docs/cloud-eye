@@ -9,11 +9,11 @@ Viewing Metrics
 
 #. In the upper left corner, select a region and project.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Cloud Service Monitoring** and select the cloud service whose resources you want to view.
 
-#. Locate the target cloud service resource, in the **Operation** column, click **View Metric**.
+#. Locate the cloud service resource and click **View Metric** in the **Operation** column.
 
    .. note::
 
@@ -33,10 +33,10 @@ Viewing Metrics
 
    .. note::
 
-      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. Near the top left corner of the page, you can click **Settings** to change the rollup period of the monitoring data. For details about rollup periods, see :ref:`What Is Rollup? <ces_faq_0009>`.
-      -  If you select **7d** or **30d**, aggregated data is displayed by default. Near the top left corner of the page, you can click **Settings** to change the rollup period of the monitoring data.
+      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data. For details about rollup periods, see :ref:`What Is Rollup? <ces_faq_0009>`
+      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data.
 
-#. In the upper right corner of the monitoring graph, click |image2| to create alarm rules for the metric. For details about the parameters, see :ref:`Creating an Alarm Rule for a Specific Metric <ces_01_0074>`.
+#. In the upper right corner of the monitoring graph, click |image2| to create alarm rules for the metric. For details about the parameters, see :ref:`Creating an Alarm Rule <en-us_topic_0084572213>`.
 
 .. |image1| image:: /_static/images/en-us_image_0000001220595446.png
 .. |image2| image:: /_static/images/en-us_image_0000001264836141.png

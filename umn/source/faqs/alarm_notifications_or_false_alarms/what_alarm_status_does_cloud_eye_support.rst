@@ -5,8 +5,10 @@
 What Alarm Status Does Cloud Eye Support?
 =========================================
 
-There are three Cloud Eye alarm statuses: **Alarm**, **OK**, and **Insufficient data**. If an alarm rule is disabled, its status is considered as invalid, and **Disabled** is displayed.
+**Alarm**, **Resolved**, **Insufficient data**, **Triggered**, and **Expired** are supported.
 
--  **Alarm**: The monitoring data meets the preset alarm policy.
--  **OK**: The monitoring data is reported but does not meet the preset alarm policy.
--  **Insufficient data**: No monitoring data has been reported for three consecutive hours, and this is generally because the instance has been deleted or is abnormal.
+-  Alarm: The metric value reached the alarm threshold, and an alarm has been triggered but not cleared for the resource.
+-  Resolved: The metric value went back to the normal range, and the resource alarm was cleared.
+-  Insufficient data: No monitoring data has been reported for three consecutive hours, and this is generally because the instance has been deleted or is abnormal.
+-  Triggered: An event configured in the alarm policy triggered an alarm.
+-  Expired: The monitored resources or alarm policies in the alarm rule were adjusted, so the original alarm record status expired.

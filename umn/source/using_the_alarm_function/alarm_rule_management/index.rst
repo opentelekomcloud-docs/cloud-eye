@@ -12,6 +12,7 @@ This topic describes how to manage alarm rules as your system grows.
 -  :ref:`Disabling Alarm Rules <ces_01_0079>`
 -  :ref:`Enabling Alarm Rules <ces_01_0080>`
 -  :ref:`Deleting Alarm Rules <ces_01_0081>`
+-  :ref:`Copying an Alarm Rule <ces_01_0123>`
 
 .. toctree::
    :maxdepth: 1
@@ -22,3 +23,4 @@ This topic describes how to manage alarm rules as your system grows.
    disabling_alarm_rules
    enabling_alarm_rules
    deleting_alarm_rules
+   copying_an_alarm_rule

@@ -5,14 +5,15 @@
 Viewing Alarm Templates
 =======================
 
-An alarm template contains a group of alarm rules for a specific service. You can use it to quickly create alarm rules for multiple resources of a cloud service. Cloud Eye recommends alarm templates based on the attributes of each cloud service. It also allows you to create custom templates as needed.
-
 Procedure
 ---------
 
 #. Log in to the management console.
 #. In the upper left corner, select a region and project.
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
-#. Choose **Alarm** **Management** > **Alarm Templates**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Alarm Management** > **Alarm Templates**.
 
-On the **Alarm Templates** page, you can create, view, modify, or delete custom templates.
+On the **Alarm Templates** page, you can create, view, modify, delete, import, or export custom templates.
+
+-  Viewing the template content: To view details of an alarm template, click the down arrow next to the target alarm template.
+-  Searching for an alarm template: You can search for an alarm template by template name or resource type.

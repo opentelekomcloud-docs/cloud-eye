@@ -46,17 +46,17 @@ The following describes how to modify the DNS server address of an ECS on the ma
 
 #. Click **Service List** in the upper left corner. Under **Compute**, select **Elastic Cloud Server**.
 
-   On the ECS console, click the name of the target ECS to view its details.
+   On the ECS console, click the name of the ECS to view its details.
 
 #. Click the VPC name on the right of **VPC** to go to the VPC console.
 
-#. Click the name of the target VPC.
+#. Click the name of the VPC.
 
 #. In the **Networking Components** area, click the number following **Subnets**.
 
    The **Subnets** page is displayed.
 
-#. In the subnet list, click the name of target subnet.
+#. In the subnet list, click the name of the subnet.
 
 #. In the **Gateway and DNS Information** area, click |image1| following **DNS Server Address**.
 
@@ -71,7 +71,7 @@ The following describes how to modify the DNS server address of an ECS on the ma
 Modifying the ECS Security Group Rules (Management Console)
 -----------------------------------------------------------
 
-The following describes how to modify security group rules for an ECS on the management console. This topic takes an ECS as an example. The operations for BMSs are similar.
+The following describes how to modify security group rules for an ECS on the management console. The operations for BMSs are similar.
 
 #. On the ECS details page, click the **Security Groups** tab.
 

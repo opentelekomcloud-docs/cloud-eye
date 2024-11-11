@@ -36,6 +36,10 @@ Procedure
 
       ECS parameters
 
+      .. important::
+
+         Storing plaintext AKs and SKs poses great security risks. You are advised to delegate all ECS or BMS Agents in the region. For details, see :ref:`How Can I Create an Agency? <ces_faq_0028>`
+
       .. code-block::
 
          {

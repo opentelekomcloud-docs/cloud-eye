@@ -22,11 +22,14 @@ To query the number of processes
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
-#. In the navigation pane on the left, choose **Server Monitoring**.
+#. Perform the following operations based on the resources to be viewed:
 
-#. On the **Server Monitoring** page, locate the row that contains the target ECS and click **View Metric** to go to the **OS Monitoring** page.
+   -  To check the process monitoring of an ECS, choose **Server Monitoring** > **Elastic Cloud Server**.
+   -  To check the process monitoring of a BMS, choose **Server Monitoring** > **Bare Metal Server**.
+
+#. On the **Server Monitoring** page, locate the ECS and click **View Metric** to go to the **OS Monitoring** page.
 
 #. Select the **Process Monitoring** tab.
 
@@ -83,17 +86,17 @@ To query information about top 5 processes with the highest CPU usages
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Server Monitoring**.
 
-#. On the **Server Monitoring** page, locate the row that contains the target ECS and click **View Metric** to go to the **OS Monitoring** page.
+#. On the **Server Monitoring** page, locate the ECS and click **View Metric** to go to the **OS Monitoring** page.
 
 #. Select the **Process Monitoring** tab.
 
 #. In the **Monitored Processes** area, click |image1| in the upper right corner to view **Top 5 Processes with Highest CPU Usage**.
 
-#. In the displayed **TOP 5 Processes with Highest CPU Usage** window, enable process monitoring for target processes, and click **OK**.
+#. In the displayed **TOP 5 Processes with Highest CPU Usage** window, enable process monitoring for the processes, and click **OK**.
 
    In the **Monitored Processes** area, the system selects processes in the **Running** state by default and displays CPU usage curves of those processes in **1h**. The displayed data is raw data.
 

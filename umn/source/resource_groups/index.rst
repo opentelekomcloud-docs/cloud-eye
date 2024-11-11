@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0135532770.html
+:original_name: ces_01_0205.html
 
-.. _en-us_topic_0135532770:
+.. _ces_01_0205:
 
 Resource Groups
 ===============

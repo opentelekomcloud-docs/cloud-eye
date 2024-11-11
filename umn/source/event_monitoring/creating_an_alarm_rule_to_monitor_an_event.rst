@@ -1,6 +1,6 @@
-:original_name: ces_01_0052.html
+:original_name: ces_01_0052-A.html
 
-.. _ces_01_0052:
+.. _ces_01_0052-A:
 
 Creating an Alarm Rule to Monitor an Event
 ==========================================
@@ -15,87 +15,30 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner, and select **Cloud Eye**.
+#. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Event Monitoring**.
 
-#. Click **Create Alarm Rule**.
+#. On the event list page, click **Create Alarm Rule** in the upper right corner.
 
-#. Specify resource type and event type.
+   You can also click **Create Alarm Rule** in the **Operation** column of the target event. When you create an alarm rule, related event parameters will be preset.
 
+#. On the **Create Alarm Rule** page, configure the parameters.
 
-   .. figure:: /_static/images/en-us_image_0000001136164665.png
-      :alt: **Figure 1** Creating a alarm rule
+   For details about the parameters, see :ref:`Table 1 <en-us_topic_0084572213__table17694105411317>` to :ref:`Table 4 <en-us_topic_0084572213__table54161352427>`.
 
-      **Figure 1** Creating a alarm rule
+   Some parameters have been preset. For details, see :ref:`Table 1 <ces_01_0052-a__ces_01_0052_table1457344744312>`.
 
-   .. table:: **Table 1** Parameter description
+   .. _ces_01_0052-a__ces_01_0052_table1457344744312:
 
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                              |
-      +===================================+==========================================================================================================+
-      | Name                              | Specifies the alarm rule name. The system generates a random name, which you can modify.                 |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Description                       | (Optional) Provides supplementary information about the alarm rule.                                      |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Resource Type                     | Specifies the type of the resource the alarm rule is created for.                                        |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Dimension                         | Specifies the metric dimension of the selected resource type.                                            |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **System event**                                                                          |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Method                            | It is fixed to **Configure manually**.                                                                   |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Event Source                      | Specifies the service the event is generated for.                                                        |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **Elastic Cloud Server**                                                                  |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Event Name                        | Specifies the instantaneous operations users performed on resources, such as login and logout.           |
-      |                                   |                                                                                                          |
-      |                                   | For events supported by event monitoring, see :ref:`Events Supported by Event Monitoring <ces_01_0054>`. |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **Delete ECS**                                                                            |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Monitoring Scope                  | Specifies the monitoring scope for event monitoring.                                                     |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **All resources**                                                                         |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Trigger Mode                      | You can select immediate trigger or accumulative trigger based on the operation severity.                |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **Immediate trigger**                                                                     |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
-      | Alarm Severity                    | Specifies the alarm severity, which can be **Critical**, **Major**, **Minor**, or **Informational**.     |
-      |                                   |                                                                                                          |
-      |                                   | Example value: **Major**                                                                                 |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------+
+   .. table:: **Table 1** Preset parameters for event monitoring alarms
 
-#. Enable the alarm notification function and set event alarm parameters.
-
-
-   .. figure:: /_static/images/en-us_image_0000001081906243.png
-      :alt: **Figure 2** Create Alarm Rule
-
-      **Figure 2** Create Alarm Rule
-
-   .. table:: **Table 2** Parameter description
-
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                                                                                                                                                                                                       |
-      +===================================+===================================================================================================================================================================================================================================================================================================+
-      | Alarm Notification                | Specifies whether to notify users when alarms are triggered. Notifications can be sent by email, text message, or HTTP/HTTPS message.                                                                                                                                                             |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Validity Period                   | Cloud Eye sends notifications only within the validity period specified in the alarm rule.                                                                                                                                                                                                        |
-      |                                   |                                                                                                                                                                                                                                                                                                   |
-      |                                   | If **Validity Period** is set to **08:00-20:00**, Cloud Eye sends notifications only within 08:00-20:00.                                                                                                                                                                                          |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Notification Object               | Specifies the object that receives alarm notifications. You can select the account contact or a topic.                                                                                                                                                                                            |
-      |                                   |                                                                                                                                                                                                                                                                                                   |
-      |                                   | -  **Account contact** is the mobile phone number and email address of the registered account.                                                                                                                                                                                                    |
-      |                                   | -  **Topic**: A topic is used to publish messages and subscribe to notifications. If the required topic is unavailable, create one first and add subscriptions to it. For details, see :ref:`Creating a Topic <en-us_topic_0085216039>` and :ref:`Adding Subscriptions <en-us_topic_0084572343>`. |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Trigger Condition                 | Specifies the trigger of alarm notifications.                                                                                                                                                                                                                                                     |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-#. Click **Create**.
-
-   The alarm rule is created.
+      +---------------+----------------------------------------------------------------------------+
+      | Parameter     | Description                                                                |
+      +===============+============================================================================+
+      | Resource Type | Alarm type that the alarm rule applies to. The default value is **Event**. |
+      +---------------+----------------------------------------------------------------------------+
+      | Event Type    | Specifies the event type.                                                  |
+      +---------------+----------------------------------------------------------------------------+
+      | Event Source  | Specifies the service the event is generated for.                          |
+      +---------------+----------------------------------------------------------------------------+

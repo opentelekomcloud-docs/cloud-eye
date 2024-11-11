@@ -9,7 +9,7 @@ The following concepts are central to your understanding and use of Cloud Eye:
 
 -  :ref:`Metrics <ces_07_0006__section20446181418613>`
 -  :ref:`Rollup <ces_07_0006__section061013819719>`
--  :ref:`Monitoring Panels <ces_07_0006__section983754719710>`
+-  :ref:`Dashboards <ces_07_0006__section983754719710>`
 -  :ref:`Topics <ces_07_0006__section06147561378>`
 -  :ref:`Alarm Rules <ces_07_0006__section14279171685>`
 -  :ref:`Alarm Templates <ces_07_0006__section7358181816813>`
@@ -21,7 +21,7 @@ The following concepts are central to your understanding and use of Cloud Eye:
 Metrics
 -------
 
-A metric refers to a quantized value of a resource dimension on the cloud platform, such as the ECS CPU usage and memory usage. A metric is a time-dependent variable that generates a certain amount of monitoring data over time. It helps you understand the changes over a specific period of time.
+A metric refers to a quantized value of a resource dimension on the cloud platform, such as the ECS CPU usage and memory usage. A metric is a time-dependent variable that generates a certain amount of monitoring data over time. It helps you understand the changes over a specific period.
 
 .. _ces_07_0006__section061013819719:
 
@@ -32,24 +32,24 @@ Rollup is the process in which Cloud Eye calculates the average, maximum, minimu
 
 .. _ces_07_0006__section983754719710:
 
-Monitoring Panels
------------------
+Dashboards
+----------
 
-Monitoring panels allow you to view monitoring data of metrics of different services and dimensions. You can use monitoring panels to display metrics of key services in a centralized way, get an overview of the service status, and use monitoring data for troubleshooting.
+Dashboards allow you to view monitoring data of metrics of different services and dimensions. You can use dashboards to display metrics of key services in a centralized way, get an overview of the service statuses, and use monitoring data for troubleshooting.
 
 .. _ces_07_0006__section06147561378:
 
 Topics
 ------
 
-A topic is used to publish messages and subscribe to notifications. Topics provide you with one-to-many publish subscription and message notification functions. You can send messages to different types of endpoints with just one message request. Cloud Eye uses SMN to notify you of cloud service resource changes, enabling you to track the cloud service status in a timely manner.
+A topic is used to publish messages and subscribe to notifications in SMN. Topics provide you with one-to-many publish subscription and message notification functions. You can send messages to different types of endpoints with just one message request. Cloud Eye uses SMN to notify you of cloud service resource changes, enabling you to track the cloud service status in a timely manner.
 
 .. _ces_07_0006__section14279171685:
 
 Alarm Rules
 -----------
 
-You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, text messages, or HTTP/HTTPS messages to servers.
+You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, SMS messages, or HTTP/HTTPS messages to an IP address of your choice.
 
 .. _ces_07_0006__section7358181816813:
 
@@ -63,7 +63,7 @@ Alarm templates contain one or more alarm rules for specific services. The templ
 User Permission
 ---------------
 
-By default, the public cloud system provides two types of user permissions by default: user management and resource management. User management permissions can manage users, user groups, and user group permissions. Resource management permissions can control users' operations on cloud service resources.
+By default, the system provides two types of user permissions by default: user management and resource management. User management permissions can manage users, user groups, and user group permissions. Resource management permissions can control users' operations on cloud service resources.
 
 For details about Cloud Eye user permissions, see `Permissions <https://docs.otc.t-systems.com/en-us/permissions/index.html>`__.
 

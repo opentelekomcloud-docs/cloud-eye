@@ -7,9 +7,7 @@ Viewing Resource Groups
 
 -  :ref:`Resource Group List <ces_01_0019>`
 -  :ref:`Resource Overview <ces_01_0020>`
--  :ref:`Unhealthy Resources <ces_01_0021>`
 -  :ref:`Alarm Rules <ces_01_0022>`
--  :ref:`Alarm History <ces_01_0023>`
 
 .. toctree::
    :maxdepth: 1
@@ -17,6 +15,4 @@ Viewing Resource Groups
 
    resource_group_list
    resource_overview
-   unhealthy_resources
    alarm_rules
-   alarm_history

@@ -9,8 +9,9 @@ Product Introduction
 -  :ref:`Advantages <ces_07_0002>`
 -  :ref:`Application Scenarios <ces_07_0003>`
 -  :ref:`Basic Concepts <ces_07_0006>`
--  :ref:`Constraints <ces_07_0007>`
+-  :ref:`Notes and Constraints <ces_07_0007>`
 -  :ref:`Region and AZ <en-us_topic_0000001360217524>`
+-  :ref:`Permissions <ces_07_0009>`
 
 .. toctree::
    :maxdepth: 1
@@ -20,5 +21,6 @@ Product Introduction
    advantages
    application_scenarios
    basic_concepts
-   constraints
+   notes_and_constraints
    region_and_az
+   permissions

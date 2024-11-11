@@ -15,7 +15,7 @@ Metric data includes raw data and rolled-up data.
       ============= ================
       Rollup Period Retention Period
       ============= ================
-      5 minutes     10 days
+      5 minutes     6 days
       20 minutes    20 days
       1 hour        155 days
       ============= ================
