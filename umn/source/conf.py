@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'ces-umn.tex',
-     u'Cloud Eye - User Guide',
+    u'Cloud Eye - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 

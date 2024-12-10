@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'ces-api-ref.tex',
-     u'Cloud Eye - API Reference',
+    u'Cloud Eye - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
