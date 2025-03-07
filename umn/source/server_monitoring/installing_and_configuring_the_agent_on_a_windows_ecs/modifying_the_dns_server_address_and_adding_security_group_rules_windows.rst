@@ -28,7 +28,7 @@ The following describes how to use the Windows GUI to add the DNS server address
 Modifying the DNS Server Address (Management Console)
 -----------------------------------------------------
 
-The following describes how to modify the DNS server address of an ECS on the management console. This topic takes an ECS as an example. The operations for BMSs are similar.
+The following describes how to modify the DNS server address of an ECS on the management console. This section takes an ECS as an example. The operations for BMSs are similar.
 
 #. In the upper left corner, select a region and project.
 
@@ -54,7 +54,7 @@ The following describes how to modify the DNS server address of an ECS on the ma
 
    .. note::
 
-      The new DNS server address takes effect after the ECS or BMS is restarted.
+      The new DNS server address is applied after the ECS or BMS is restarted.
 
 Modifying the ECS Security Group Rules (Management Console)
 -----------------------------------------------------------

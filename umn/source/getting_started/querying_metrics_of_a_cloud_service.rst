@@ -22,7 +22,7 @@ Procedure
 
    The cloud service page is displayed.
 
-5. Locate the row that contains the cloud service resource you want to monitor and click **View Metric** in the **Operation** column.
+5. Locate the row containing the cloud service resource you want to monitor and click **View Metric** in the **Operation** column.
 
    The detailed monitoring page is displayed.
 
@@ -53,10 +53,14 @@ Procedure
 
    .. note::
 
-      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of the monitoring data. For details about the rollup period, see :ref:`What Is Rollup? <ces_faq_0009>`
-      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data.
+      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of the monitoring data. For details about the aggregation period, see :ref:`What Is Aggregation? <ces_faq_0009>`
+      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of monitoring data.
 
-8. In the upper right corner of the monitoring view, click |image2|\ (This icon is not available in the enlarged graph mode.) to create an alarm rule for a metric.
+8. In the upper right corner of the monitoring view, click |image2| to create an alarm rule for a metric.
+
+   .. note::
+
+      This icon is not available in the enlarged graph mode.
 
 9. To export data, click **Export Data** on the **Cloud Service Monitoring** page, configure parameters, and click **Export**. For details, see :ref:`How Can I Export Collected Data? <ces_faq_0012>`
 

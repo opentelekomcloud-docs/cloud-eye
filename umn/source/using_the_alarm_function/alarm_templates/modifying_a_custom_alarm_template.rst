@@ -2,8 +2,8 @@
 
 .. _ces_01_0084:
 
-Modifying a Custom Template
-===========================
+Modifying a Custom Alarm Template
+=================================
 
 #. Log in to the management console.
 
@@ -13,7 +13,7 @@ Modifying a Custom Template
 
 #. Choose **Alarm Management** > **Alarm Templates**.
 
-#. Click **Custom Templates**.
+#. Click the **Custom Templates** tab.
 
 #. Locate the row containing the alarm template to be modified, and click **Modify** in the **Operation** column.
 

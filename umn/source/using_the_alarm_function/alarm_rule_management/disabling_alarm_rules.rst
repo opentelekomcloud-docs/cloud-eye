@@ -8,7 +8,7 @@ Disabling Alarm Rules
 Scenarios
 ---------
 
-If you don't need to monitor the metrics or events of a resource, you can disable the alarm rule created for the resource. Once the alarm rule is disabled, the monitoring metrics or events configured in it will no longer trigger any alarms.
+If you do not need to monitor the metrics or events of a resource, you can disable the alarm rule created for the resource. Once the alarm rule is disabled, the monitoring metrics or events configured in it will no longer trigger any alarms.
 
 Procedure
 ---------

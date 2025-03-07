@@ -8,7 +8,7 @@ Using Server Monitoring
 Server monitoring includes basic monitoring, process monitoring, and OS monitoring for servers.
 
 -  Basic monitoring provides Agent-free monitoring for basic ECS or BMS metrics.
--  OS monitoring provides proactive and fine-grained OS monitoring for servers, and it requires the Agent (a plug-in) to be installed on all servers that will be monitored.
+-  OS monitoring provides proactive and fine-grained OS monitoring for servers, and it requires the Agent to be installed on all servers that will be monitored.
 -  Process monitoring provides monitoring of active processes on hosts.
 
 .. note::
@@ -42,7 +42,7 @@ Using Server Monitoring
 
 #. Select the ECS or BMS and install the Agent on it.
 
-   a. Change the DNS server address of and add security group rules to the ECS or BMS. For details, see :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Linux) <en-us_topic_0150354069>` or :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Windows) <en-us_topic_0150366044>`.
+   a. Change the DNS server address and add security group rules to the ECS or BMS. For details, see :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Linux) <en-us_topic_0150354069>` or :ref:`Modifying the DNS Server Address and Adding Security Group Rules (Windows) <en-us_topic_0150366044>`.
    b. Install the Agent. For details, see :ref:`Installing the Agent on a Linux Server <ces_01_0029>` or :ref:`Installing and Configuring the Agent on a Windows Server <en-us_topic_0110258146>`.
 
 #. After 5 minutes, check whether the Agent status is **Running**.

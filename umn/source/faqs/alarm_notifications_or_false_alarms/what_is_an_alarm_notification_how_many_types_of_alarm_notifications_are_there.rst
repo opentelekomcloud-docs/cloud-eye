@@ -5,7 +5,7 @@
 What Is an Alarm Notification? How Many Types of Alarm Notifications Are There?
 ===============================================================================
 
-Alarm notifications are email or SMS messages that are sent out when an alarm status is **Alarm**, **OK**, or both.
+Alarm notifications are emails, SMS messages, or HTTP/HTTPS messages that are sent out when an alarm status is **Alarm**, **OK**, or both.
 
 You can configure Cloud Eye to send or not send alarm notifications when you create or modify an alarm rule.
 

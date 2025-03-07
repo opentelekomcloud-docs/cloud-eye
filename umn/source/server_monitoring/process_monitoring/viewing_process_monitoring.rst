@@ -134,7 +134,7 @@ To query information about top 5 processes with the highest CPU usages
 
    In the upper left corner, you can see six default monitoring periods: **1h**, **3h**, **12h**, **1d**, **7d**, and **30d**. To view historical monitoring data for any period during the last six months, customize the monitoring period by setting **Select Range** in the upper right corner.
 
-   In the upper left corner of the graph, you can click **Settings** to configure the rollup method.
+   In the upper left corner of the graph, select a different value for **Period** to configure the aggregation method.
 
 .. |image1| image:: /_static/images/en-us_image_0146378778.png
 .. |image2| image:: /_static/images/en-us_image_0239656150.png

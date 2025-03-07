@@ -8,7 +8,7 @@ Basic Concepts
 The following concepts are central to your understanding and use of Cloud Eye:
 
 -  :ref:`Metrics <ces_07_0006__section20446181418613>`
--  :ref:`Rollup <ces_07_0006__section061013819719>`
+-  :ref:`Aggregation <ces_07_0006__section061013819719>`
 -  :ref:`Dashboards <ces_07_0006__section983754719710>`
 -  :ref:`Topics <ces_07_0006__section06147561378>`
 -  :ref:`Alarm Rules <ces_07_0006__section14279171685>`
@@ -25,10 +25,10 @@ A metric refers to a quantized value of a resource dimension on the cloud platfo
 
 .. _ces_07_0006__section061013819719:
 
-Rollup
-------
+Aggregation
+-----------
 
-Rollup is the process in which Cloud Eye calculates the average, maximum, minimum, sum, or variance value based on sample raw data reported by each cloud service in specific periods. The calculation period is called rollup period. Cloud Eye supports the following rollup periods: 5 minutes, 20 minutes, 1 hour, 4 hours, and 24 hours.
+Aggregation is the process in which Cloud Eye calculates the average, maximum, minimum, sum, or variance value based on sample raw data reported by each cloud service in specific periods. The calculation period is called aggregation period. Cloud Eye supports the following aggregation periods: 5 minutes, 20 minutes, 1 hour, 4 hours, and 24 hours.
 
 .. _ces_07_0006__section983754719710:
 
@@ -49,7 +49,7 @@ A topic is used to publish messages and subscribe to notifications in SMN. Topic
 Alarm Rules
 -----------
 
-You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, SMS messages, or HTTP/HTTPS messages to an IP address of your choice.
+You can create alarm rules to set thresholds for cloud service metrics. When the status (**Alarm** and **OK**) of the alarm rule changes, Cloud Eye notifies you by sending emails, SMS messages, or HTTP/HTTPS messages.
 
 .. _ces_07_0006__section7358181816813:
 

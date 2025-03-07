@@ -30,7 +30,7 @@ Cloud Eye provides the following functions:
 
 -  Real-time notifications
 
-   You can enable **Alarm Notification** when creating alarm rules. When the cloud service status changes and metrics reach the thresholds specified in alarm rules, Cloud Eye notifies you by SMS, email, or by sending messages to server addresses, allowing you to monitor your cloud resource statuses and changes in real time.
+   You can enable **Alarm Notification** when creating alarm rules. When the cloud service status changes and metrics reach the thresholds specified in alarm rules, Cloud Eye notifies you by sending emails, SMS messages, or HTTP/HTTPS messages, allowing you to monitor your cloud resource statuses and changes in real time.
 
 -  Dashboard
 

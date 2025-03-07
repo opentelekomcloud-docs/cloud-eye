@@ -23,7 +23,7 @@ Procedure
 
 #. Choose **Trace List** in the navigation pane on the left.
 
-#. Set filters to search for your desired traces, as shown in :ref:`Figure 1 <ces_01_0088__en-us_topic_0179639644_fig139361441134311>`. The following filters are available:
+#. Set filters to search for your desired traces, as shown in :ref:`Figure 1 <ces_01_0088__en-us_topic_0179639644_fig139361441134311>`. The following filters are available.
 
    .. _ces_01_0088__en-us_topic_0179639644_fig139361441134311:
 
@@ -40,14 +40,13 @@ Procedure
 
    -  **Operator**: Select a user.
    -  **Trace Status**: Select **All trace statuses**, **Normal**, **Warning**, or **Incident**.
-   -  Time range: You can query traces generated during any time range in the last seven days.
-   -  Click **Export** to export all traces in the query result as a CSV file. The file can contain up to 5000 records.
+   -  Time range: Select **Last 1 hour**, **Last 1 day**, or **Last 1 week**, or specify a custom time range within the last seven days.
 
 #. Click **Query**.
 
 #. On the **Trace List** page, you can also export and refresh the trace list.
 
-   -  Click **Export** to export all traces in the query result as a CSV file. The file can contain up to 5000 records.
+   -  Click **Export** to export all traces in the query result as a CSV file. The file can contain up to 5,000 records.
    -  Click |image2| to view the latest information about traces.
 
 #. Click |image3| on the left of a trace to expand its details.

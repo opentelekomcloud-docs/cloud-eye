@@ -8,7 +8,7 @@ Modifying the DNS Server Address and Adding Security Group Rules (Linux)
 Scenarios
 ---------
 
-This topic describes how to add the DNS server address and security group rules to a Linux ECS or BMS to ensure successful downloading of the Agent installation package and successful monitoring data collection. This topic takes an ECS as an example. The operations for BMSs are similar.
+This topic describes how to add the DNS server address and security group rules to a Linux ECS or BMS to ensure successful downloading of the Agent installation package and successful monitoring data collection. This section takes an ECS as an example. The operations for BMSs are similar.
 
 You can modify the DNS server address of an ECS via command lines or the management console.
 
@@ -40,7 +40,7 @@ To use the management console, see :ref:`Modifying the DNS Server Address (Manag
 Modifying the DNS Server Address (Management Console)
 -----------------------------------------------------
 
-The following describes how to modify the DNS server address of an ECS on the management console. This topic takes an ECS as an example. The operations for BMSs are similar.
+The following describes how to modify the DNS server address of an ECS on the management console. This section takes an ECS as an example. The operations for BMSs are similar.
 
 #. In the upper left corner, select a region and project.
 
@@ -66,7 +66,7 @@ The following describes how to modify the DNS server address of an ECS on the ma
 
    .. note::
 
-      The new DNS server address takes effect after the ECS or BMS is restarted.
+      The new DNS server address is applied after the ECS or BMS is restarted.
 
 Modifying the ECS Security Group Rules (Management Console)
 -----------------------------------------------------------

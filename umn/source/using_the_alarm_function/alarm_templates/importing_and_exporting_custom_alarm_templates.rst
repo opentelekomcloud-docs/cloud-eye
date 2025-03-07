@@ -2,11 +2,11 @@
 
 .. _ces_01_0185:
 
-Importing and Exporting Custom Templates
-========================================
+Importing and Exporting Custom Alarm Templates
+==============================================
 
-Importing a Custom Template
----------------------------
+Importing Custom Alarm Templates
+--------------------------------
 
 #. Log in to the management console.
 
@@ -32,8 +32,8 @@ Importing a Custom Template
 
    The template name must be different from that of a default template.
 
-Exporting a Custom Template
----------------------------
+Exporting Custom Alarm Templates
+--------------------------------
 
 #. Log in to the management console.
 #. In the upper left corner, select a region and project.

@@ -8,7 +8,7 @@ Enabling Alarm Rules
 Scenarios
 ---------
 
-If an alarm rule has been created for a resource but is currently disabled, you can enable it to keep track of the metrics or events configured in it. This allows you to promptly identify any abnormal metric data and quickly rectify the fault.
+If an alarm rule has been created for a resource but is currently disabled, you can enable it to keep track of the metrics or events configured in it. This allows you to promptly identify any abnormal metric data or event and quickly rectify the fault.
 
 Procedure
 ---------

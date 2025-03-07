@@ -14,7 +14,7 @@ Based on the OS you are going to use, server quantity, and personal habits, inst
 +--------------------------------------------------+-------------------+---------------------------------------------------------------------------------+
 | Installing the Agent on a Windows server         | ECS               | :ref:`Installing and Configuring the Agent on a Windows ECS <ces_01_0005>`      |
 +--------------------------------------------------+-------------------+---------------------------------------------------------------------------------+
-| Installing the Agent in batches on Linux servers | ECS               | :ref:`Installing the Agents in Batches on Linux ECSs <ces_01_0034>`             |
+| Installing the Agent in batches on Linux servers | ECS               | :ref:`Installing the Agents in Batches on Linux ECSs <ces_01_0033>`             |
 +--------------------------------------------------+-------------------+---------------------------------------------------------------------------------+
 
 Agent installation and configuration description:

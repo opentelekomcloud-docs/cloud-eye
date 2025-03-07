@@ -22,7 +22,7 @@ Viewing Custom Monitoring
 
       Only after you add monitoring data through APIs, will those data be displayed on the Cloud Eye console. For details about how to add monitoring data, see section "Adding Monitoring Data" in *Cloud Eye API Reference*.
 
-#. Locate the row that contains the cloud resource to be viewed, and click **View Metric**.
+#. Locate the row containing the cloud resource to be viewed, and click **View Metric**.
 
    On the page displayed, you can view graphs based on raw data collected in **1h**, **3h**, **12h**, **1d**, and **7d**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
 

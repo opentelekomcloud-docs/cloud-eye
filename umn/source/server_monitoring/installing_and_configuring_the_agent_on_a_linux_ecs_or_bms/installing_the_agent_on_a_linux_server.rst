@@ -8,7 +8,7 @@ Installing the Agent on a Linux Server
 Scenarios
 ---------
 
-This topic describes how to manually install the Agent on a Linux ECS or BMS.
+This section describes how to manually install the Agent on a Linux ECS or BMS.
 
 Prerequisites
 -------------
@@ -23,13 +23,35 @@ Procedure
 
 #. Log in to the ECS or BMS as user **root**.
 
-#. Run the following command to install the Agent:
+#. Install the Agent.
 
    EU DE:
 
-   .. code-block::
+   -  x86_64
 
-      cd /usr/local && wget https://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+      .. code-block::
+
+         cd /usr/local && wget --no-check-certificate https://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+
+   -  Arm 64
+
+      .. code-block::
+
+         cd /usr/local && wget --no-check-certificate https://telescope-eu-de.obs.eu-de.otc.t-systems.com/scripts/agentInstallARM.sh && chmod 755 agentInstallARM.sh && ./agentInstallARM.sh
+
+   EU NL:
+
+   -  x86_64
+
+      .. code-block::
+
+         cd /usr/local && wget --no-check-certificate https://telescope-eu-nl.obs.eu-nl.otc.t-systems.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+
+   -  Arm 64
+
+      .. code-block::
+
+         cd /usr/local && wget --no-check-certificate https://telescope-eu-nl.obs.eu-nl.otc.t-systems.com/scripts/agentInstallARM.sh && chmod 755 agentInstallARM.sh && ./agentInstallARM.sh
 
    If **Telescope process starts successfully** or **Success to install telescope** is displayed, the Agent is successfully installed.
 
@@ -42,4 +64,6 @@ Procedure
 
 #. Run the following command to clear the installation script:
 
-   **if [[ -f /usr/local/uniagent/extension/install/telescope/bin/telescope ]]; then rm /usr/local/agent_install.sh; else rm /usr/local/agentInstall.sh; fi**
+   .. code-block::
+
+      if [[ -f /usr/local/uniagent/extension/install/telescope/bin/telescope ]]; then rm /usr/local/agent_install.sh; else rm /usr/local/agentInstall.sh; fi

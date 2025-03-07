@@ -28,7 +28,7 @@ Procedure
 
    -  To view OS monitoring metrics of an ECS, in the left navigation pane, choose **Server Monitoring** > **Elastic Cloud Server**, locate the ECS, and click **View Metric** in the **Operation** column.
    -  To view basic monitoring metrics of an ECS, in the left navigation pane, choose **Server Monitoring** > **Elastic Cloud Server**, locate the ECS, and click **View Metric** in the **Operation** column. Click the **Basic Monitoring** tab.
-   -  To view OS monitoring metrics of a BMS, in the right navigation pane, choose **Server Monitoring** > **Bare Metal Server**, locate the BMS, and click **View Metric** in the **Operation** column.
+   -  To view OS monitoring metrics of a BMS, in the left navigation pane, choose **Server Monitoring** > **Bare Metal Server**, locate the BMS, and click **View Metric** in the **Operation** column.
    -  To view processing monitoring metrics, in the left navigation pane, choose **Server Monitoring** > **Elastic Cloud Server**, locate the ECS, and click **View Metric** in the **Operation** column, and then click the **Process Monitoring** tab.
 
 #. View metrics.
@@ -41,7 +41,7 @@ Procedure
 
    In the upper left corner, you can see six default monitoring periods: **1h**, **3h**, **12h**, **1d**, **7d**, and **30d**. To view historical monitoring data for any period during the last six months, customize the monitoring period by setting **Select Range** in the upper right corner.
 
-#. In the upper left corner of the graph, locate **Period** and configure the rollup method.
+#. In the upper left corner of the graph, locate **Period** and configure the aggregation method.
 
    -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default.
    -  If you select **7d** or **30d**, aggregated data is displayed by default.

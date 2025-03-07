@@ -5,6 +5,10 @@
 Copying an Alarm Rule
 =====================
 
+.. note::
+
+   That it will be available only in the next version.
+
 Procedure
 ---------
 
