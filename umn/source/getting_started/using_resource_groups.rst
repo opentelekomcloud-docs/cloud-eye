@@ -20,7 +20,6 @@ Functions
 ---------
 
 -  Resource groups enable you to manage your cloud resources across products.
--  The unhealthy resource list enables you to quickly locate faults.
 -  The **Alarm Rules** page displays all alarm rules in a resource group. You can enable, disable, modify, or delete an alarm rule.
 
 
@@ -40,5 +39,3 @@ Using Resource Groups
 #. Click **Create**.
 
    For details about how to create and manage resource groups, see :ref:`Introduction to Resource Groups <en-us_topic_0102570567>`.
-
-   For details about how to create and manage resource groups, see :ref:`Resource Groups <ces_01_0205>`.

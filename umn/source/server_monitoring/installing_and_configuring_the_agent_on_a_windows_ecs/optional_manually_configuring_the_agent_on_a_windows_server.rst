@@ -68,7 +68,7 @@ Procedure
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | AccessKey/SecretKey               | To obtain the AK and SK, perform the following operations:                                                                                                                             |
       |                                   |                                                                                                                                                                                        |
-      |                                   | Log in to the Cloud Eye console, click the username in the upper right corner, and choose **My Credentials**, and choose **Access Keys**.                                              |
+      |                                   | Log in to Cloud Eye, click the username in the upper right corner, and choose **My Credentials** > **Access Keys**.                                                                    |
       |                                   |                                                                                                                                                                                        |
       |                                   | -  If you have obtained the access key, obtain the **AccessKey** value and the **SecretKey** value in the **credentials.csv** file saved when you create **Access Keys**.              |
       |                                   | -  If no access keys are available, click **Create Access Key** to create one. Save the **credentials.csv** file and obtain the **AccessKey** value and the **SecretKey** value in it. |
@@ -94,6 +94,4 @@ Procedure
       |                                   |    The default value is **200**. If **ClientPort** is **5000**, the port range will be 5000 to 5199.                                                                                   |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-#. Wait for a few minutes.
-
-   If **Agent Status** is **Running**, the Agent has been installed and starts to collect fine-grained metric data.
+#. Wait for a few minutes. If **Agent Status** is **Running**, the Agent has been installed and starts to collect fine-grained metric data.

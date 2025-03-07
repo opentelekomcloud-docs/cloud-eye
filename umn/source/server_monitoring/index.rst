@@ -9,11 +9,11 @@ Server Monitoring
 -  :ref:`Agent Installation and Configuration <ces_01_0027>`
 -  :ref:`Installing and Configuring the Agent on a Linux ECS or BMS <ces_01_0004>`
 -  :ref:`Installing and Configuring the Agent on a Windows ECS <ces_01_0005>`
--  :ref:`Installing the Agents in Batches on Linux ECSs <ces_01_0034>`
+-  :ref:`Installing the Agents in Batches on Linux ECSs <ces_01_0033>`
 -  :ref:`Managing the Agent <ces_01_0035>`
 -  :ref:`Process Monitoring <ces_01_0040>`
 -  :ref:`Viewing Server Monitoring Metrics <en-us_topic_0079332017>`
--  :ref:`Creating an Alarm Rule to Monitor a Server <ces_01_0042-a>`
+-  :ref:`Creating an Alarm Rule to Monitor a Server <ces_01_0042>`
 
 .. toctree::
    :maxdepth: 1

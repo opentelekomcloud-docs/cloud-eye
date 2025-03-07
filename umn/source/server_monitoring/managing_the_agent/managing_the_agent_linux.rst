@@ -54,4 +54,4 @@ Run the following command to uninstall the Agent:
 
 .. important::
 
-   You can manually uninstall the Agent. After the uninstallation, Cloud Eye does not collect the ECS or BMS monitoring data every one minute. To use the Agent again, reinstall it by referring to :ref:`Installing and Configuring the Agent on a Linux ECS or BMS <ces_01_0004>`. Before reinstalling the Agent, manually delete the previous Agent installation package.
+   You can manually uninstall the Agent. After the uninstallation, Cloud Eye does not support monitoring by seconds (60s by default) for ECSs or BMSs. To use the Agent again, reinstall it by referring to :ref:`Installing and Configuring the Agent on a Linux ECS or BMS <ces_01_0004>`. Before reinstalling the Agent, manually delete the previous Agent installation package.

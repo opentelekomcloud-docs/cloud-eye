@@ -10,7 +10,7 @@ Scenarios
 
 After you install the Agent, configure it by clicking **Restore Agent Configurations** on the Cloud Eye console. If the Agent fails to be configured by clicking **Restore Agent Configurations** or due to other reasons, manually configure it by following the instructions provided in this topic.
 
-This topic takes an ECS as an example. The operations for BMSs are similar.
+This section takes an ECS as an example. The operations for BMSs are similar.
 
 Prerequisites
 -------------
@@ -35,10 +35,6 @@ Procedure
    b. Modify the parameters in the file. For details, see :ref:`Table 1 <ces_01_0031__table18647151253120>`.
 
       ECS parameters
-
-      .. important::
-
-         Storing plaintext AKs and SKs poses great security risks. You are advised to delegate all ECS or BMS Agents in the region. For details, see :ref:`How Can I Create an Agency? <ces_faq_0028>`
 
       .. code-block::
 
@@ -96,7 +92,7 @@ Procedure
          +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
          | AccessKey/SecretKey               | To obtain the AK and SK, perform the following operations:                                                                                                                             |
          |                                   |                                                                                                                                                                                        |
-         |                                   | Log in to the Cloud Eye console, click the username in the upper right corner, and choose **My Credentials**, and choose **Access Keys**.                                              |
+         |                                   | Log in to Cloud Eye, click the username in the upper right corner, and choose **My Credentials** > **Access Keys**.                                                                    |
          |                                   |                                                                                                                                                                                        |
          |                                   | -  If you have obtained the access key, obtain the **AccessKey** value and the **SecretKey** value in the **credentials.csv** file saved when you create **Access Keys**.              |
          |                                   | -  If no access keys are available, click **Create Access Key** to create one. Save the **credentials.csv** file and obtain the **AccessKey** value and the **SecretKey** value in it. |

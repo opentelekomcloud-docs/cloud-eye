@@ -1,6 +1,6 @@
-:original_name: ces_01_0042-A.html
+:original_name: ces_01_0042.html
 
-.. _ces_01_0042-A:
+.. _ces_01_0042:
 
 Creating an Alarm Rule to Monitor a Server
 ==========================================
@@ -27,9 +27,9 @@ Procedure
 
    For details about the parameters, see :ref:`Table 1 <en-us_topic_0084572213__table17694105411317>` to :ref:`Table 4 <en-us_topic_0084572213__table54161352427>`.
 
-   Some parameters have been preset. For details, see :ref:`Table 1 <ces_01_0042-a__ces_01_0042_table1838512257346>`.
+   Some parameters have been preset. For details, see :ref:`Table 1 <ces_01_0042__ces_01_0042-a_table1838512257346>`.
 
-   .. _ces_01_0042-a__ces_01_0042_table1838512257346:
+   .. _ces_01_0042__ces_01_0042-a_table1838512257346:
 
    .. table:: **Table 1** Preset parameters for server monitoring alarms
 

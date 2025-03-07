@@ -41,10 +41,10 @@ Process Flow
    .. note::
 
       -  Cloud Eye is a region-specific service and must be deployed in specific physical regions. Cloud Eye permissions can be assigned and take effect only in specific regions. If you want a permission to take effect for all regions, assign it in all these regions. The global permission does not take effect.
-      -  The preceding permissions are all Cloud Eye permissions. For more refined Cloud Eye permissions, see :ref:`Permissions <ces_07_0009>`.
+      -  The preceding are all Cloud Eye permissions. For more refined Cloud Eye permissions, see :ref:`Table 3 <ces_07_0009__table1289923815224>`.
 
 #. `Create a user and add it to a user group. <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__ Create a user on the IAM console and add the user to the group created in :ref:`1 <ces_01_0090__li10269636890>`.
 
 #. `Log in <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__ and verify permissions.
 
-   Log in to the Cloud Eye console as the created user, and verify that the user only has the **CES Administrator** permissions. After you log in to the Cloud Eye console and use related functions, if no authentication failure message is displayed, the authorization is successful.
+   Log in to the Cloud Eye console as the created user, and verify that the user has the **CES Administrator** permissions. After you log in to the Cloud Eye console and use related functions, if no authentication failure message is displayed, the authorization is successful.

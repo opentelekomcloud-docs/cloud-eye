@@ -22,13 +22,13 @@ Viewing Custom Monitoring
 
 #. Locate the cloud service resource and click **View Metric** in the **Operation** column.
 
-   On the page displayed, you can view graphs based on raw data collected in **1h**, **3h**, and **12h**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
+   On the page displayed, you can view graphs based on data collected in **1h**, **3h**, **12h**, **1d**, and **7d**. In the upper right corner of each graph, the maximum and minimum values of the metric in the corresponding time periods are dynamically displayed.
 
 #. If you want to view metric details, hover your mouse over a graph and click |image1| in the upper right corner.
 
    In the upper left corner, you can see six default monitoring periods: **1h**, **3h**, **12h**, **1d**, **7d**, and **30d**. To view historical monitoring data for any period during the last six months, customize the monitoring period by setting **Select Range** in the upper right corner.
 
-   In the upper left corner of the graph, click **Settings** to configure the rollup method.
+   In the upper left corner of the graph, set **Period** and **Statistic** to configure the aggregation method.
 
 Creating an Alarm Rule
 ----------------------

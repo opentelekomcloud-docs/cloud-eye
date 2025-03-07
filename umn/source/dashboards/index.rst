@@ -9,7 +9,7 @@ Dashboards
 -  :ref:`Creating a Dashboard <ces_01_0011>`
 -  :ref:`Adding a Graph <ces_01_0012>`
 -  :ref:`Viewing a Graph <ces_01_0013>`
--  :ref:`Configuring a Graph <ces_01_0014>`
+-  :ref:`Configure Graph <ces_01_0014>`
 -  :ref:`Deleting a Graph <ces_01_0015>`
 -  :ref:`Deleting a Dashboard <ces_01_0016>`
 
@@ -21,6 +21,6 @@ Dashboards
    creating_a_dashboard
    adding_a_graph
    viewing_a_graph
-   configuring_a_graph
+   configure_graph
    deleting_a_graph
    deleting_a_dashboard

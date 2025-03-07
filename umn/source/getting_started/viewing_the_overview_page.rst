@@ -17,7 +17,7 @@ Alarm Statistics
 
 This module displays the alarm trend for the last seven days and the number of alarms of each severity.
 
-After you click the data next to an alarm severity, the **Alarm Records** page is displayed, showing all alarm records of the severity.
+After you click corresponding alarm severity area, the **Alarm Records** page is displayed, showing all alarm records of the severity.
 
 ECS Monitoring
 --------------
@@ -40,8 +40,3 @@ Storage Monitoring
 ------------------
 
 **Storage Monitoring (EVS)** on the left displays the top 5 EVS disks by read and write bandwidth. **Storage Monitoring (EVS)** on the right displays the top 5 EVS disks by read and write IOPS.
-
-Full Screen
------------
-
-You can view various information, such as alarm statistics, event monitoring, and ECS monitoring on a full screen.

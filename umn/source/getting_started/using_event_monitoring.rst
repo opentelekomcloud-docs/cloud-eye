@@ -39,4 +39,4 @@ Creating an Alarm Rule
 
 #. Configure the alarm rule name, alarm policy, and alarm notification as prompted.
 
-   After you create the alarm rule, if the metric data reaches the threshold, Cloud Eye immediately notifies you through SMN that an exception has occurred.
+   After you create the alarm rule, if an event occurs, Cloud Eye will immediately notify you of cloud resource exceptions through SMN to avoid losses.

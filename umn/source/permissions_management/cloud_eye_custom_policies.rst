@@ -5,7 +5,7 @@
 Cloud Eye Custom Policies
 =========================
 
-Custom policies can be created to supplement the system-defined policies of Cloud Eye. For the actions that can be added to custom policies, see Permissions Policies and Supported Actions\ *.*
+Custom policies can be created to supplement the system-defined policies of Cloud Eye. For the actions that can be added to custom policies, see :ref:`Table 3 <ces_07_0009__table1289923815224>` in .
 
 You can create custom policies in either of the following two ways:
 
@@ -64,8 +64,9 @@ Example Custom Policies
             "Statement": [
                   {
                         "Action": [
-                              "ces:alarms:put",
                               "ces:alarms:create",
+                              "ces:alarms:put",
+                              "ces:alarms:list",
                               "ces:alarms:delete"
                         ],
                         "Effect": "Allow"

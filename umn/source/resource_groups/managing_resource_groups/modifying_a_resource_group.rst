@@ -16,5 +16,5 @@ Procedure
 #. In the navigation pane on the left, choose **Resource Groups**.
 #. Click a resource group name to go to the **Resource Overview** page
 
-   -  Adding resources: Click **to add resources** and add resources as prompted.
+   -  Adding resources: Click **to add resources**.
    -  Removing resources: In the resource list, select the resource to be removed and click **Remove** in the **Operation** column.

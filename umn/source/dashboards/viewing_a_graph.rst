@@ -5,7 +5,7 @@
 Viewing a Graph
 ===============
 
-After you add a graph, you can view the metric trends on the **Dashboards** page. The system provides you both default and customizable time ranges to view trends from last month. This topic describes how to view trends for a longer time range.
+After you add a graph, you can view the metric trends on the **Dashboards** page. The system provides you both default and custom time ranges to view trends from last month. This topic describes how to view trends for a longer time range.
 
 Procedure
 ---------
@@ -16,7 +16,7 @@ Procedure
 
 #. Click **Service List** in the upper left corner and select **Cloud Eye**.
 
-#. In the navigation pane on the left, choose **Dashboard**.
+#. In the navigation pane, choose **Dashboard**.
 
    You can view all graphs on the current dashboard.
 
@@ -53,7 +53,7 @@ The full screen displays metric data more clearly.
 Customizing a Period to View the Graph
 --------------------------------------
 
-By default, metrics in the last 1 hour, last 3 hours, last 12 hours, last 24 hours, and last 7 days are displayed. If you want to view metrics in the last 2 hours or a customized time period, you can drag the mouse to select the time range you want to view on the X axis.
+By default, metrics in the last 1 hour, last 3 hours, last 12 hours, last 1 day, last 7 days, and last 30 days are displayed. If you want to view metrics in the last 2 hours or a customized time range, you can drag the mouse to select the time range you want to view on the X axis.
 
 -  To view metric details in a customized time period, click the first icon on the right. Drag the mouse to select a customized time range. The system automatically displays the monitoring data in the selected time range.
 

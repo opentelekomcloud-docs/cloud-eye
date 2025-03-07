@@ -2,8 +2,8 @@
 
 .. _ces_01_0083:
 
-Creating a Custom Template
-==========================
+Creating a Custom Alarm Template
+================================
 
 #. Log in to the management console.
 
@@ -30,13 +30,11 @@ Creating a Custom Template
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter                         | Description                                                                                                                            |
       +===================================+========================================================================================================================================+
-      | Name                              | Specifies the alarm rule name. The system generates a random name, which you can modify.                                               |
+      | Name                              | Specifies the alarm template name. The system generates a random one, which you can modify.                                            |
       |                                   |                                                                                                                                        |
       |                                   | Example value: **alarmTemplate-c6ft**                                                                                                  |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
       | Description                       | (Optional) Provides supplementary information about the custom template.                                                               |
-      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-      | Alarm Type                        | You can select **Metric** or **Event**.                                                                                                |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
       | Method                            | You can select **Using existing template** or **Configure manually**.                                                                  |
       |                                   |                                                                                                                                        |

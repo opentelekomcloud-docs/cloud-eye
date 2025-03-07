@@ -25,7 +25,7 @@ You can create dashboards and graphs to compare multiple metrics. The graphs are
 Multiple Notification Types
 ---------------------------
 
-You can enable **Alarm Notification** when creating alarm rules. When a metric reaches the threshold specified in an alarm rule, Cloud Eye notifies you by emails or SMS messages, or by sending HTTP/HTTPS messages to an IP address of your choice, allowing you to keep track of the statuses of cloud services and enabling you to build smart alarm handling programs.
+You can enable **Alarm Notification** when creating alarm rules. When a metric reaches the threshold specified in an alarm rule, Cloud Eye notifies you by sending emails, SMS messages, or HTTP/HTTPS messages. You can track the service status and establish programs accordingly to handle the alarms.
 
 Batch Creation of Alarm Rules
 -----------------------------

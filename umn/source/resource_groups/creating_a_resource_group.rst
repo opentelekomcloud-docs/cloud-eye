@@ -14,7 +14,7 @@ Restrictions
 ------------
 
 -  Each user can create up to 1,000 resource groups.
--  A resource group must contain 1 to 1,000 cloud service resources.
+-  A resource group can contain 1 to 1,000 cloud service resources.
 -  There are restrictions on the number of resources of different types that can be added to a resource group. For details, see the tips on the Cloud Eye console.
 
 Procedure
@@ -32,13 +32,11 @@ Procedure
 
 
    .. figure:: /_static/images/en-us_image_0000001902856296.png
-      :alt: **Figure 1** Create Resource Group
+      :alt: **Figure 1** Creating a resource group
 
-      **Figure 1** Create Resource Group
+      **Figure 1** Creating a resource group
 
-#. Enter the group name.
-
-#. (Optional) Select cloud service resources and configure **Associate Enterprise Project**.
+#. Enter a group name, select the cloud service resources to be added, and optionally set **Enterprise Project**.
 
    You are advised to associate an enterprise project. After an enterprise project is associated, resources added to or deleted from the enterprise project are automatically added to or deleted from the resource group. If resources are frequently added or deleted, you can improve the efficiency of maintaining resource groups.
 
@@ -50,6 +48,6 @@ Procedure
 
    .. note::
 
-      You can search for ECSs and BMSs by name, ID, and private IP address. For other cloud services, you can search by name, ID, or tag.
+      You can search for ECSs and BMSs by name, ID, and private IP address. For other cloud resources, you can search by name, ID, or tag.
 
 #. Click **Create**.

@@ -2,8 +2,8 @@
 
 .. _ces_01_0014:
 
-Configuring a Graph
-===================
+Configure Graph
+===============
 
 This topic describes how to add, modify, and delete metrics on graphs.
 

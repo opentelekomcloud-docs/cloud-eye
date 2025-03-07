@@ -43,4 +43,4 @@ Procedure
 
 #. In the upper right corner of the event list, select an event type and enter an event name to filter the desired event.
 
-#. To view events of a specific time period, click on the corresponding bar chart.
+#. To view events of a specific time period, click the corresponding bar chart.
