@@ -10,7 +10,7 @@ Function
 
 This API is used to add one or more pieces of custom metric monitoring data to solve the problem that the system metrics cannot meet specific service requirements.
 
-For details about the monitoring data retention period, see `How Long Is Metric Data Retained? <https://docs.otc.t-systems.com/cloud-eye/umn/faqs/general_consulting/how_long_is_metric_data_retained.html#ces-faq-0010>`__
+For details about the monitoring data retention period, see `How Long Is Metric Data Retained? <https://docs.otc.t-systems.com/cloud-eye/umn/faqs/general_consulting/how_long_is_metric_data_retained.html#ces-faq-0010>`__ in *Cloud Eye User Guide*.
 
 URI
 ---
