@@ -16,12 +16,10 @@ Example Response
 .. code-block::
 
    {
-       "code": 400,
-       "element": "Bad Request",
-       "message": "The system received a request which cannot be recognized",
-       "details": {
-           "details": "Some content in message body is not correct",
-           "code": "ces.0014"
+       "http_code":"403",
+       "message": {
+           "details":"Policy doesn't allow [ces:alarms:get] to be performed",
+           "code":"403"
        }
    }
 
