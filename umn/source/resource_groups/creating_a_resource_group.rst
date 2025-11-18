@@ -8,10 +8,10 @@ Creating a Resource Group
 Scenarios
 ---------
 
-If you use multiple cloud services, you can add all related resources, such as ECSs, BMSs, EVS disks, elastic IP addresses, bandwidths, and databases to the same resource group for easier management and O&M.
+If you use multiple cloud services, you can add all related resources, such as ECSs, BMSs, EVS disks, EIPs, bandwidths, and databases to the same resource group for easier management and O&M.
 
-Restrictions
-------------
+Constraints
+-----------
 
 -  Each user can create up to 1,000 resource groups.
 -  A resource group can contain 1 to 1,000 cloud service resources.
@@ -22,13 +22,13 @@ Procedure
 
 #. Log in to the management console.
 
-#. In the upper left corner, select a region and project.
+2. In the upper left corner, select a region and project.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+3. Choose **Service List** > **Cloud Eye**.
 
-#. In the navigation pane on the left, choose **Resource Groups**.
+4. In the navigation pane on the left, choose **Resource Groups**.
 
-#. In the upper right corner, click **Create Resource Group**.
+5. In the upper right corner, click **Create Resource Group**.
 
 
    .. figure:: /_static/images/en-us_image_0000001902856296.png
@@ -36,9 +36,9 @@ Procedure
 
       **Figure 1** Creating a resource group
 
-#. Enter a group name, select the cloud service resources to be added, and optionally set **Enterprise Project**.
+6. Enter a group name, select the cloud service resources to be added, and optionally set **Enterprise Project**.
 
-   You are advised to associate an enterprise project. After an enterprise project is associated, resources added to or deleted from the enterprise project are automatically added to or deleted from the resource group. If resources are frequently added or deleted, you can improve the efficiency of maintaining resource groups.
+   You are advised to associate an enterprise project. After an enterprise project is associated, adding or removing resources from the enterprise project will automatically update the resource group. This setup streamlines maintenance if you often add or delete resources.
 
 
    .. figure:: /_static/images/en-us_image_0000001787894604.png
@@ -48,6 +48,6 @@ Procedure
 
    .. note::
 
-      You can search for ECSs and BMSs by name, ID, and private IP address. For other cloud resources, you can search by name, ID, or tag.
+      You can search for ECSs and BMSs by name, ID, or private IP address. For other cloud resources, you can search by name, ID, or tag.
 
-#. Click **Create**.
+7. Click **Create**.

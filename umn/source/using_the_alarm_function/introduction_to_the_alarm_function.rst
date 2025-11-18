@@ -5,7 +5,7 @@
 Introduction to the Alarm Function
 ==================================
 
-You can set alarm rules for key metrics of cloud services. When the conditions in the alarm rule are met, Cloud Eye sends emails, or SMS messages, or sends HTTP/HTTPS requests, enabling you to quickly respond to resource changes.
+You can set alarm rules for key metrics of cloud services. When the conditions in an alarm rule are met, Cloud Eye notifies you of faults via emails, or SMS messages, or HTTP/HTTPS requests. This way, you can quickly handle the faults (if needed) and prevent service loss due to resource changes.
 
 Cloud Eye invokes SMN APIs to send notifications. This requires you to create a topic and add subscriptions to this topic on the SMN console. Then, when you create alarm rules on Cloud Eye, you can enable the alarm notification function and select the topic. When alarm rule conditions are met, Cloud Eye sends the alarm information to subscription endpoints in real time.
 

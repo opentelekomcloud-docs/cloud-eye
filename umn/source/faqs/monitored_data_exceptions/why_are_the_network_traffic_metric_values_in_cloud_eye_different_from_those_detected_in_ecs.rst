@@ -11,4 +11,4 @@ Cloud Eye collects ECS and EVS disk data every 4 minutes (5 minutes for KVM ECSs
 
 The larger the sampling period, the greater the data distortion in the short term. Cloud Eye is more suitable for long-term monitoring for websites and applications running on ECSs.
 
-Furthermore, to improve reliability, you can configure alarm thresholds to enable Cloud Eye to generate alarms where there are resource exceptions or insufficiencies.
+To improve reliability, you can configure alarm thresholds to enable Cloud Eye to generate alarms where there are resource exceptions or shortages.

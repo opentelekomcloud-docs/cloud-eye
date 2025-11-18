@@ -12,13 +12,10 @@ Procedure
 
 #. Log in to the management console.
 
-#. In the upper left corner, select a region and project.
-
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
-
-#. In the navigation pane on the left, choose **Resource Groups**.
-
-   On the **Resource Groups** page, you can view all the resource groups that have been created.
+2. In the upper left corner, select a region and project.
+3. Choose **Service List** > **Cloud Eye**.
+4. In the navigation pane, choose **Resource Groups**.
+5. On the **Resource Groups** page, you can view all the resource groups that have been created.
 
    .. table:: **Table 1** Parameters of the resource group list
 
@@ -31,9 +28,9 @@ Procedure
       |                                   |                                                                                                                                                                                                              |
       |                                   |    The group name can contain a maximum of 128 characters. Only letters, digits, hyphens (-), and underscores (_) are allowed.                                                                               |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Alarm Status                      | -  OK: No alarms are generated for resources in the group.                                                                                                                                                   |
-      |                                   | -  In alarm: An alarm is being generated for a resource in the group.                                                                                                                                        |
-      |                                   | -  No alarm rules set: No alarm rules have been created for any resource in the group.                                                                                                                       |
+      | Status (Metric Monitoring)        | -  **OK**: No alarms are generated for resources in the group.                                                                                                                                               |
+      |                                   | -  **In alarm**: An alarm is being generated for a resource in the group.                                                                                                                                    |
+      |                                   | -  **No alarm rules set**: No alarm rules have been created for any resource in the group.                                                                                                                   |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Resources (Alarm/Total)           | Total number of resources that are generating alarms in a group/Total number of resources in the group.                                                                                                      |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -42,6 +39,8 @@ Procedure
       | (Optional) Enterprise Project     | Specifies the name of the enterprise project that has the resource group permission.                                                                                                                         |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Add Resources                     | Specifies how you add resources to a resource group. Only **Manually** is supported.                                                                                                                         |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Synchronize Resources             | You can add all resources in an enterprise project or resources with the same tags to a resource group. If **Add Resources** is set to **Manually**, this parameter is not required.                         |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Created                           | Specifies the time when the resource group was created.                                                                                                                                                      |
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

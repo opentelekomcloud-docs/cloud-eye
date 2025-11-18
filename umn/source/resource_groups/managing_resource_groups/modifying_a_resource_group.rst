@@ -12,9 +12,9 @@ Procedure
 
 #. Log in to the management console.
 #. In the upper left corner, select a region and project.
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 #. In the navigation pane on the left, choose **Resource Groups**.
 #. Click a resource group name to go to the **Resource Overview** page
 
-   -  Adding resources: Click **to add resources**.
+   -  Adding resources: Click **Add Resources** to add resources as prompted.
    -  Removing resources: In the resource list, select the resource to be removed and click **Remove** in the **Operation** column.

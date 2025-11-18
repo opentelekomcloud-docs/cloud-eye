@@ -9,7 +9,7 @@ Viewing Metrics
 
 #. In the upper left corner, select a region and project.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Cloud Service Monitoring** and select the cloud service whose resources you want to view.
 
@@ -21,7 +21,7 @@ Viewing Metrics
       -  If **Auto Refresh** is enabled, data is automatically refreshed every minute.
       -  Some cloud services allow you to view resource details. You can click **View Resource Details** in the upper part of the page to view details about monitored resources.
       -  You can search for a specific metric in the search box.
-      -  For details about how to export monitoring data, see :ref:`How Can I Export Collected Data? <ces_faq_0012>`
+      -  You can export monitoring data by referring to :ref:`Exporting Monitoring Data <ces_01_0108__section10634348201413>`.
 
 #. Near the top right corner of the page, click **Select Metric**.
 
@@ -29,12 +29,12 @@ Viewing Metrics
 
    Select at least one metric. Drag and drop the selected metrics at desired locations to sort them. This helps you customize metrics to be viewed.
 
-#. Hover your mouse over a graph. In the upper right corner, click |image1| to view monitoring details on an enlarged graph. Select a time period or customize a time range to view the metric in a specific monitoring interval.
+#. Hover your mouse over a graph. In the upper right corner, click |image1| to view monitoring details on an enlarged graph. Select a default or custom time range to view the metrics.
 
    .. note::
 
-      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of monitoring data. For details about aggregation periods, see :ref:`What Is Aggregation? <ces_faq_0009>`
-      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of monitoring data.
+      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data. For details about rollup periods, see :ref:`What Is Rollup? <ces_faq_0009>`
+      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data.
 
 #. In the upper right corner of the monitoring graph, click |image2| to create alarm rules for the metric. For details about the parameters, see :ref:`Creating an Alarm Rule <en-us_topic_0084572213>`.
 

@@ -5,7 +5,7 @@
 Getting Started
 ===============
 
--  :ref:`Viewing the Overview Page <en-us_topic_0015479891>`
+-  :ref:`Viewing Overview <en-us_topic_0015479891>`
 -  :ref:`Querying Metrics of a Cloud Service <en-us_topic_0018121651>`
 -  :ref:`Using Server Monitoring <ces_06_0003>`
 -  :ref:`Using Custom Monitoring <ces_06_0005>`
@@ -17,7 +17,7 @@ Getting Started
    :maxdepth: 1
    :hidden: 
 
-   viewing_the_overview_page
+   viewing_overview
    querying_metrics_of_a_cloud_service
    using_server_monitoring
    using_custom_monitoring

@@ -7,14 +7,14 @@ Using Custom Monitoring
 
 The **Custom Monitoring** page displays all custom metrics reported by users. You can use simple API requests to report collected monitoring data of those metrics to Cloud Eye for processing and display.
 
-For details about how to add monitoring data, see section "Adding Monitoring Data" in the *Cloud Eye API Reference*.
+For details about how to add monitoring data, see `Adding Monitoring Data <https://docs.otc.t-systems.com/cloud-eye/api-ref/api_description/monitoring_data/adding_monitoring_data.html#en-us-topic-0032831274>`__.
 
 Viewing Custom Monitoring
 -------------------------
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Custom Monitoring**.
 
@@ -28,14 +28,14 @@ Viewing Custom Monitoring
 
    In the upper left corner, you can see six default monitoring periods: **1h**, **3h**, **12h**, **1d**, **7d**, and **30d**. To view historical monitoring data for any period during the last six months, customize the monitoring period by setting **Select Range** in the upper right corner.
 
-   In the upper left corner of the graph, set **Period** and **Statistic** to configure the aggregation method.
+   In the upper left corner of the graph, set **Period** and **Statistic** to configure the rollup method.
 
 Creating an Alarm Rule
 ----------------------
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Custom Monitoring**.
 

@@ -20,5 +20,5 @@ Solution
 
 Manually modify the Agent configuration file by adding BMS identifier **BmsFlag** and setting it to **true**.
 
--  Linux OS: See :ref:`(Optional) Manually Configuring the Agent (Linux) <ces_01_0031>`.
+-  Linux OS: See :ref:`(Optional) Manually Configuring the Agent on a Linux Server <ces_01_0031>`.
 -  Windows OS: See :ref:`(Optional) Manually Configuring the Agent on a Windows Server <ces_01_0032>`.
