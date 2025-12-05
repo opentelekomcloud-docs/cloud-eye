@@ -6,7 +6,8 @@ Cloud Eye - API Reference
    :maxdepth: 1
 
    api_usage_guidelines
-   api_description/index
+   api_v1/index
+   api_v2/index
    permissions_policies_and_supported_actions/index
    common_parameters/index
    appendix/index
