@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Event Monitoring**.
 

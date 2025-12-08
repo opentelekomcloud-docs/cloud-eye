@@ -26,7 +26,7 @@ Cloud Eye provides the following functions:
 
 -  Flexible alarm rule configurations
 
-   You can create alarm rules for multiple resources at the same time. After you create an alarm rule, you can modify, enable, disable, or delete it at any time. For more information, see :ref:`Alarm Rule Management <ces_01_0077>`.
+   You can create alarm rules for multiple resources at the same time. After you create an alarm rule, you can modify, copy, enable, disable, or delete it at any time. For more information, see :ref:`Alarm Rule Management <ces_01_0077>`.
 
 -  Real-time notifications
 
@@ -34,7 +34,7 @@ Cloud Eye provides the following functions:
 
 -  Dashboard
 
-   Various dashboards enable you to view cross-service and cross-dimension monitoring data. They display key metrics and provide an overview of the service status and monitoring details that you can use for troubleshooting. For more information, see :ref:`Introduction to Dashboards <en-us_topic_0015479901>`.
+   Various dashboards enable you to view cross-service and cross-dimension monitoring data. They display key metrics and provide an overview of the service status and monitoring details that you can use for troubleshooting. For more information, see :ref:`My Dashboards <en-us_topic_0000001835759456>`.
 
 -  Resource group
 

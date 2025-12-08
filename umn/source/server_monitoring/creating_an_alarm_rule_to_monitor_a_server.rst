@@ -17,7 +17,7 @@ Procedure
 
 #. In the upper left corner, select a region and project.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Server Monitoring**.
 

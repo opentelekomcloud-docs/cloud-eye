@@ -16,7 +16,7 @@ Procedure
 
 2. In the upper left corner, select a region and project.
 
-3. Click **Service List** in the upper left corner and select **Cloud Eye**.
+3. Choose **Service List** > **Cloud Eye**.
 
 4. In the navigation pane on the left, choose **Cloud Service Monitoring** and select a cloud service.
 
@@ -53,8 +53,8 @@ Procedure
 
    .. note::
 
-      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of the monitoring data. For details about the aggregation period, see :ref:`What Is Aggregation? <ces_faq_0009>`
-      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the aggregation period of monitoring data.
+      -  If you select **1h**, **3h**, **12h**, or **1d**, raw data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data. For details about the rollup period, see :ref:`What Is Rollup? <ces_faq_0009>`.
+      -  If you select **7d** or **30d**, aggregated data is displayed by default. You can set **Period** and **Statistic** to change the rollup period of monitoring data.
 
 8. In the upper right corner of the monitoring view, click |image2| to create an alarm rule for a metric.
 
@@ -62,7 +62,7 @@ Procedure
 
       This icon is not available in the enlarged graph mode.
 
-9. To export data, click **Export Data** on the **Cloud Service Monitoring** page, configure parameters, and click **Export**. For details, see :ref:`How Can I Export Collected Data? <ces_faq_0012>`
+9. To export data, click **Export Data** on the **Cloud Service Monitoring** page, configure parameters, and click **Export**. For details, see :ref:`Exporting Monitoring Data <ces_01_0108__section10634348201413>`.
 
 .. |image1| image:: /_static/images/en-us_image_0000001089785046.png
 .. |image2| image:: /_static/images/en-us_image_0000001220441482.png

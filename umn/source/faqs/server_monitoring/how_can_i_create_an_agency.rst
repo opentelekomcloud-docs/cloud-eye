@@ -64,6 +64,6 @@ If no agency is configured for a server, perform the following operations to con
       If you purchase a BMS, choose **Computing** > **Bare Metal Server**.
 
 #. Click the name of the ECS or BMS where the Agent is located. The parameter configuration page is displayed.
-#. In the **Management Information** area, select the agency created in :ref:`5 <ces_faq_0028__en-us_topic_0105568468_en-us_topic_0067564154_li34323751141623>` for **Agency** and click the green tick to make the agency take effect.
+#. For **Agency Name**, select the agency name created in :ref:`5 <ces_faq_0028__en-us_topic_0105568468_en-us_topic_0067564154_li34323751141623>` and click the green tick to confirm your selection.
 
 .. |image1| image:: /_static/images/en-us_image_0110267213.png

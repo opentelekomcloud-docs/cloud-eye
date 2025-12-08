@@ -45,6 +45,6 @@ Process Flow
 
 #. `Create a user and add it to a user group. <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__ Create a user on the IAM console and add the user to the group created in :ref:`1 <ces_01_0090__li10269636890>`.
 
-#. `Log in <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__ and verify permissions.
+#. `Log in to the console <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__ and verify permissions.
 
    Log in to the Cloud Eye console as the created user, and verify that the user has the **CES Administrator** permissions. After you log in to the Cloud Eye console and use related functions, if no authentication failure message is displayed, the authorization is successful.

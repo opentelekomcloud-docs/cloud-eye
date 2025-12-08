@@ -19,9 +19,9 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
-#. In the navigation pane on the left, choose **Data Dump**.
+#. In the navigation pane, choose **Data Dump**.
 
 #. Click **Add Dump Task**.
 
@@ -63,6 +63,8 @@ Procedure
       | Monitoring Scope                        | The scope can only be **All resources**, indicating that all metrics of the specified monitored object will be dumped to DMS for Kafka.                                                                                                                                                                                 |
       +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Resource Type (Destination Information) | The type can only be **Distributed Message Service for Kafka**.                                                                                                                                                                                                                                                         |
+      +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Project Name                            | Specifies the project of the resource.                                                                                                                                                                                                                                                                                  |
       +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Destination                             | Specifies the Kafka instance and topic where the data is to be dumped.                                                                                                                                                                                                                                                  |
       |                                         |                                                                                                                                                                                                                                                                                                                         |

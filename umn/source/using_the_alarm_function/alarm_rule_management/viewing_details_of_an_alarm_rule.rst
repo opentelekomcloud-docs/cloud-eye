@@ -12,7 +12,7 @@ Procedure
 
 #. In the upper left corner, select a region and project.
 
-#. Click **Service List** in the upper left corner and select **Cloud Eye**.
+#. Choose **Service List** > **Cloud Eye**.
 
 #. Choose **Alarm Management** > **Alarm Rules**.
 
@@ -98,14 +98,14 @@ Procedure
 
    .. table:: **Table 5** Alarm Notifications
 
-      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                                  |
-      +===================================+==============================================================================================================================+
-      | Notification Group/Topic          | Specifies the name of the topic(s) and/or the Account Contact to which the alarm notification is to be sent.                 |
-      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-      | Trigger Condition                 | Specifies the condition for triggering an alarm notification. The options are **Generated alarm** and **Cleared alarm**.     |
-      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-      | Notification Window               | Cloud Eye sends notifications only within the notification window specified in the alarm rule.                               |
-      |                                   |                                                                                                                              |
-      |                                   | For example, if the notification window is set to **00:00-8:00**, Cloud Eye will only send notifications from 00:00 to 8:00. |
-      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                              |
+      +===================================+==========================================================================================================================+
+      | Notification Group/Topic          | Specifies the name of the topic(s) and/or the Account Contact to which the alarm notification is to be sent.             |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Trigger Condition                 | Specifies the condition for triggering an alarm notification. The options are **Generated alarm** and **Cleared alarm**. |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Notification Window               | Cloud Eye sends notifications only within the notification window specified in the alarm rule.                           |
+      |                                   |                                                                                                                          |
+      |                                   | For example, if the notification window is set to **00:00-8:00**, Cloud Eye only sends notifications during this period. |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
