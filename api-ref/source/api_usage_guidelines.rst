@@ -11,4 +11,4 @@ Public cloud APIs use HTTPS as the transmission protocol. Requests/Responses are
 
 For details about how to use APIs, see `API Usage Guidelines <https://docs.otc.t-systems.com/en-us/api/apiug/apig-en-api-180328001.html?tag=API%20Documents>`__.
 
-An endpoint is the **request address** for calling an API. Endpoints vary depending on services and regions. For example, the endpoint of the eu-de region is **ces.eu-de.otc.t-systems.com**. For the endpoints of all services, see `Regions and Endpoints <https://docs.otc.t-systems.com/en-us/endpoint/index.html>`__.
+An endpoint is the **request address** for calling an API. Endpoints vary with services and regions. For example, the endpoint of the eu-de region is **ces.eu-de.otc.t-systems.com**. For the endpoints of all services, see `Regions and Endpoints <https://docs.otc.t-systems.com/en-us/endpoint/index.html>`__.

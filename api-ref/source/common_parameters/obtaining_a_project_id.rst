@@ -64,7 +64,7 @@ A project ID needs to be specified in the URIs of some APIs. Therefore, you need
    On the **My Credentials** page, view project IDs in the project list.
 
 
-   .. figure:: /_static/images/en-us_image_0000001508295281.png
+   .. figure:: /_static/images/en-us_image_0000002446115165.png
       :alt: **Figure 1** Viewing project IDs
 
       **Figure 1** Viewing project IDs
