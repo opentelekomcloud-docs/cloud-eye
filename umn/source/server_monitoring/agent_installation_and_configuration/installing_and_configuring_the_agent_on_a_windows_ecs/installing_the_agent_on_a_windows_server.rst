@@ -58,13 +58,13 @@ Procedure
 
    .. code-block::
 
-      .\install_amd64.exe -r eu-de -u 0.1.9 -t 2.7.2 -d agent.ces.otc.t-systems.com -o otc.t-systems.com
+      .\install_amd64.exe -r eu-de -u 0.1.9 -t 2.7.2 -d agent.ces.eu-de.otc.t-systems.com -o otc.t-systems.com
 
    EU NL:
 
    .. code-block::
 
-      .\install_amd64.exe -r eu-nl -u 0.1.9 -t 2.7.2 -d agent.ces.otc.t-systems.com -o otc.t-systems.com
+      .\install_amd64.exe -r eu-nl -u 0.1.9 -t 2.7.2 -d agent.ces.eu-nl.otc.t-systems.com -o otc.t-systems.com
 
    Wait for 3 to 5 minutes until the Agent starts collecting monitoring data.
 
