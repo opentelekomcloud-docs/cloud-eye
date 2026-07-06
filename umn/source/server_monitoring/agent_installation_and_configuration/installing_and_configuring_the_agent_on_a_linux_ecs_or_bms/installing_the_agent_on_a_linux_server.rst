@@ -33,13 +33,13 @@ Procedure
 
    .. code-block::
 
-      cd /usr/local && curl -k -O https://uniagent-eu-de.obs.eu-de.otc.t-systems.com/package/agent_install.sh && bash agent_install.sh -r eu-de -u 0.1.9 -t 2.7.2 -o otc.t-systems.com -d agent.ces.otc.t-systems.com
+      cd /usr/local && curl -k -O https://uniagent-eu-de.obs.eu-de.otc.t-systems.com/package/agent_install.sh && bash agent_install.sh -r eu-de -u 0.1.9 -t 2.7.2 -o otc.t-systems.com -d agent.ces.eu-de.otc.t-systems.com
 
    EU NL:
 
    .. code-block::
 
-      cd /usr/local && curl -k -O https://uniagent-eu-nl.obs.eu-nl.otc.t-systems.com/package/agent_install.sh && bash agent_install.sh -r eu-nl -u 0.1.9 -t 2.7.2 -o otc.t-systems.com -d agent.ces.otc.t-systems.com
+      cd /usr/local && curl -k -O https://uniagent-eu-nl.obs.eu-nl.otc.t-systems.com/package/agent_install.sh && bash agent_install.sh -r eu-nl -u 0.1.9 -t 2.7.2 -o otc.t-systems.com -d agent.ces.eu-nl.otc.t-systems.com
 
    If the message "Telescope process starts successfully." is displayed, the installation is successful. Wait for 3 to 5 minutes until the Agent starts collecting monitoring data.
 
